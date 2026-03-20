@@ -98,6 +98,132 @@
       ]
     },
     {
+      "edition": "February 2026",
+      "month": "2026-02",
+      "entries": [
+        {
+          "product": "Tenable One",
+          "tag": "New Feature",
+          "title": "Tenable One Open Connector",
+          "description": "A new self-service connector allowing teams to ingest data from any external source \u2014 pentesting reports, third-party vulnerability scans, custom tools \u2014 via drag-and-drop CSV, Excel, or ZIP file uploads with no APIs or coding required. Includes customizable data mapping for precise segmentation and reporting, closing visibility gaps across the full attack surface."
+        },
+        {
+          "product": "Tenable One",
+          "tag": "Enhancement",
+          "title": "AI Exposure \u2014 Shadow AI Discovery & Governance",
+          "description": "Expanded AI Exposure capabilities covering three core areas: continuous shadow AI discovery across the full environment, protection of AI workloads and agents by closing infrastructure and attack path gaps, and a new governance add-on for monitoring employee use of GenAI tools to prevent data leakage and enforce organizational policies."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "Remediation Patches Integrated into Vulnerability Tables",
+          "description": "Tenable Plugin IDs and exact patch names are now displayed directly in vulnerability tables and workload profiles. DevOps teams get the precise patch name they need without manual research, significantly reducing Mean Time to Remediation (MTTR). Available in the new Patch Name column and within Patch Profiles."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "Exclusions Framework for Non-Actionable Findings",
+          "description": "New Exclusions framework lets teams silence non-actionable findings and focus remediation effort on risks that move the needle. Provides strategic noise reduction without losing visibility into findings that may become relevant later."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "AWS ABAC Support for True Least Privilege",
+          "description": "Attribute-Based Access Control (ABAC) support for AWS brings granular identity visibility and highly accurate permission recommendations. Enables more precise least-privilege enforcement in AWS environments using tag-based access policies."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "GraphQL API Support for Projects",
+          "description": "New GraphQL API support for Cloud Security Projects enables security governance to be baked directly into DevOps CI/CD workflows at scale. Allows automated management of project configurations, policies, and findings without manual intervention."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "Milestone",
+          "title": "Forrester Wave Strong Performer \u2014 CNAPP Q1 2026",
+          "description": "Tenable named a Strong Performer in the Forrester Wave for Cloud Native Application Protection Platforms, Q1 2026. Received perfect 5/5 scores in CIEM, Container Orchestration Protection, Reporting, Vision, and Community. Forrester specifically highlighted excellence in identifying toxic permission combinations and customer support."
+        },
+        {
+          "product": "Tenable Vulnerability Management",
+          "tag": "New Feature",
+          "title": "AI Exposure & MCP Tracking Dashboard",
+          "description": "Updated Tracking AI Exposure dashboard and report replacing complex plugin output filters with simplified plugin family filters. Adds dedicated content for Model Context Protocol (MCP) to secure AI connectivity alongside LLM deployments, giving security teams a cleaner view of their AI attack surface."
+        },
+        {
+          "product": "Tenable Vulnerability Management",
+          "tag": "New Feature",
+          "title": "Post-Quantum Cryptography Analysis Dashboard",
+          "description": "New Post Quantum Ciphers Analysis report and dashboards help teams inventory their cryptographic landscape and prepare for the transition away from RSA and ECC. Identifies where legacy cryptography is deployed, detects services lacking post-quantum cipher support, and pinpoints specific vulnerable ciphers, certificates, and assets requiring immediate attention."
+        },
+        {
+          "product": "Tenable Vulnerability Management",
+          "tag": "Enhancement",
+          "title": "CPU Resource & Plugin Download Concurrency Controls",
+          "description": "New controls allowing teams to set CPU utilization limits for Windows and Linux agents and throttle plugin download concurrency across agents and scanners. Balances security scan coverage with the performance needs of business-critical infrastructure and bandwidth-constrained networks."
+        },
+        {
+          "product": "Tenable Security Center",
+          "tag": "New Feature",
+          "title": "Security Center 6.8 \u2014 Enhanced VPR with AI-Powered Insights",
+          "description": "New AI-powered VPR logic explains why an exposure is significant and provides clear mitigation guidance based on regional and industry-specific threat actor behavior. Helps teams stop chasing the 60% of CVEs rated High/Critical and focus on the 3% that truly matter."
+        },
+        {
+          "product": "Tenable Security Center",
+          "tag": "Enhancement",
+          "title": "Security Center 6.8 \u2014 Unified Asset Repository & Background Queries",
+          "description": "IPv4, IPv6, and Agent repositories unified into a single flexible Asset Repository type, reducing administrative overhead. New background query processing keeps the UI responsive during long-running asset searches, and new per-host scan timeouts prevent a single slow host from derailing entire scan schedules."
+        },
+        {
+          "product": "Tenable OT Security",
+          "tag": "New Feature",
+          "title": "OT Security 4.5 \u2014 Advanced Dynamic Tagging & Policy Violation Widgets",
+          "description": "New rule-based dynamic tags with multiple filters (asset type, risk score, criticality) streamline OT asset prioritization and reporting. New High-Risk Violations and Operational Violations widgets in the Overview Dashboard replace the former Events widgets, making it easier to distinguish critical exposures from non-critical operational issues."
+        },
+        {
+          "product": "Tenable OT Security",
+          "tag": "New Feature",
+          "title": "OT Security 4.5 \u2014 Unified SOC Visibility & IEC 61850 Support",
+          "description": "Policy violations detected by OT Security (unauthorized access, failed logins, risky config changes) can now be viewed directly within Tenable Security Center dashboards, giving SOC and IT teams a unified OT+IT view. Enhanced passive detection for IEC 61850 intelligent electronic devices improves visibility across substation and power generation infrastructure."
+        },
+        {
+          "product": "Tenable OT Security",
+          "tag": "Enhancement",
+          "title": "OT Security 4.5 \u2014 NIST CSF & IEC 62443 Compliance Mapping",
+          "description": "Direct mapping of asset data and policies to NIST CSF and IEC 62443-3-3 frameworks simplifies compliance tracking and reporting for electrical substation and power grid environments. Includes new RBAC controls in Enterprise Manager allowing admins to assign users to specific ICPs via user groups."
+        },
+        {
+          "product": "Tenable Identity Exposure",
+          "tag": "New Feature",
+          "title": "Dynamic Objects Misconfiguration IoE",
+          "description": "New Indicator of Exposure detecting Dynamic Objects Misconfiguration and Usage in Active Directory. Identifies transient AD objects that attackers could exploit for unauthorized access or persistence, hardening environments where dynamic object usage creates stealthy attack paths."
+        },
+        {
+          "product": "Tenable Identity Exposure",
+          "tag": "Enhancement",
+          "title": "Domain Installation Health Check Optimization",
+          "description": "Improved health checks detect redundant 'Tenable IoA GPO EVT Subscribe Listener' files in SYSVOL, preventing detection lag or GPO conflicts caused by running multiple versions. Ensures the identity detection engine operates at peak performance without configuration drift."
+        },
+        {
+          "product": "Tenable Ecosystem",
+          "tag": "New Integration",
+          "title": "WAS Integration for ServiceNow VR v30.2.0",
+          "description": "Full integration of Tenable Web App Scanning (WAS) with ServiceNow Vulnerability Response v30.2.0, enabling automatic sync of DAST findings and application metadata into ServiceNow. Includes CMDB correlation, scalable chunk-based data ingestion via Export APIs, and flexible CI Lookup/Product Model configuration. Compatible with Zurich, Yokohama, Washington, and Xanadu releases."
+        },
+        {
+          "product": "Tenable Ecosystem",
+          "tag": "New Integration",
+          "title": "Tenable Plugin for Jira On-Premises v11.0.0",
+          "description": "New version adding full support for Jira 11.x Data Center environments, enabling automatic sync of findings from Tenable VM, Security Center, and WAS directly into Jira tickets. Note: not backward compatible with Jira 9.x or 10.x \u2014 Jira environment upgrade required."
+        },
+        {
+          "product": "Tenable Ecosystem",
+          "tag": "Enhancement",
+          "title": "Tenable Add-on for Splunk v8.0.2",
+          "description": "Quality update resolving a specific index_time race condition that was affecting data reliability for Tenable Security Center integrations. Improves data consistency for teams using Splunk as their SIEM alongside Tenable SC."
+        }
+      ]
+    },
+    {
       "edition": "December 2025",
       "month": "2025-12",
       "entries": [
