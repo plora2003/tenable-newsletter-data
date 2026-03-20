@@ -1,6 +1,102 @@
 {
-  "lastUpdated": "2025-12-16",
+  "lastUpdated": "2026-03-19",
   "editions": [
+    {
+      "edition": "March 2026",
+      "month": "2026-03",
+      "entries": [
+        {
+          "product": "Tenable One",
+          "tag": "Coming Soon",
+          "title": "Full Export for Attack Path Analysis",
+          "description": "Full dataset exports for Top Attack Paths and Top Attack Techniques into CSV or JSON formats, supporting up to 100K+ results via a new global UI button. Exports include critical metrics like Source Node Exposure Score (NES) and Target Asset Criticality Rating (ACR), with API parity so teams can pull path data into SIEM, SOAR, or custom tooling via the Tenable Public API."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "Synchronized Policy Management via Linked Queries",
+          "description": "Saved explorer searches can now be linked directly to custom policies and reports. When a source query is updated, every linked policy and report automatically syncs \u2014 eliminating manual version control and ensuring security standards are identical across the entire organization."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "Enhancement",
+          "title": "Enable/Disable Toggle for Automation Rules",
+          "description": "New operational control allowing teams to pause automated remediation workflows for maintenance without losing configurations. Prevents accidental changes during planned downtime while keeping automation rules intact and ready to re-enable."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "Enhancement",
+          "title": "CI/CD Pipeline Noise Reduction for Container Scans",
+          "description": "Unresolvable vulnerabilities can now be excluded from container image scans in CI/CD pipelines, preventing noise from breaking builds when no patch is currently available. Maintains developer velocity without compromising on real, actionable findings."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "Network Endpoints in Inventory (Confirmed Reachability)",
+          "description": "Network Endpoints are now displayed in the Inventory, surfacing actual validated entry points for cloud resources. Bridges the gap between theoretical risk and actual exposure by confirming which resources are genuinely reachable from the internet."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "Terraform Dynamic Configuration Scanning",
+          "description": "Tenable Cloud Security now scans Terraform dynamic configurations, providing visibility into scaled infrastructure and complex definitions before deployment. Catches IaC misconfigurations that static analysis tools miss in dynamically generated resources."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "Enhancement",
+          "title": "Expanded Compliance: CIS AWS 6.0.0 & NIS2 Directive",
+          "description": "Immediate support added for CIS AWS Foundations Benchmark 6.0.0 and the NIS2 Directive, keeping cloud accounts aligned with the latest global regulatory standards. Relevant for customers in EU-regulated industries or with AWS compliance obligations."
+        },
+        {
+          "product": "Tenable Vulnerability Management",
+          "tag": "New Feature",
+          "title": "VM-Native OT Discovery",
+          "description": "Safely identify and profile connected PLCs, HMIs, and IoT devices using existing Tenable VM scan templates \u2014 no specialized hardware or new network sensors required. Turns the existing IT security toolset into a safe OT discovery engine, closing the IT/OT visibility gap without a separate product deployment."
+        },
+        {
+          "product": "Tenable Vulnerability Management",
+          "tag": "New Feature",
+          "title": "OS and Application Inventory with Data Troubleshooting Dashboard",
+          "description": "New dashboard providing an instant high-level view of asset counts across every OS and application, with built-in troubleshooting queries to identify and fix scan fidelity issues. Enables risk prioritization based on accurate, clean data rather than noisy or duplicate scan results."
+        },
+        {
+          "product": "Tenable Security Center",
+          "tag": "New Feature",
+          "title": "Native OT Discovery Inside Security Center",
+          "description": "OT discovery capabilities added natively to Tenable Security Center, enabling safe mapping of shadow OT assets \u2014 HVAC controllers, IoT devices, PLCs, HMIs \u2014 using existing tools. Provides deep identity data for industrial assets without deploying new network sensors or risking operational disruption."
+        },
+        {
+          "product": "Tenable Security Center",
+          "tag": "Enhancement",
+          "title": "Security Center 6.8 \u2014 AI-Powered VPR & Unified Asset Repositories",
+          "description": "Version 6.8 introduces AI-powered VPR insights with clear mitigation guidance, unified asset repositories for IPv4, IPv6, and Agents, and new background query processing and scan optimization tools. Focuses security teams on the vulnerabilities that truly matter while improving operational efficiency at scale."
+        },
+        {
+          "product": "Tenable OT Security",
+          "tag": "Enhancement",
+          "title": "OT Security 4.5.61 Service Pack \u2014 Critical Stability Update",
+          "description": "Critical service pack addressing system stability and performance issues when processing high volumes of network conversations, plus specific fixes for communication gaps with Rockwell Stratix devices and Nessus scans. Immediate upgrade recommended for all customers on version 4.5."
+        },
+        {
+          "product": "Tenable OT Security",
+          "tag": "New Feature",
+          "title": "OT Security 4.6 Early Access \u2014 5,000 Subnet Scaling & Centralized Network Management",
+          "description": "Major release introducing support for up to 5,000 subnets per ICP for massive enterprise OT deployments, a new Monitored Networks page with bulk-add capabilities, precision Nessus scan workflows with per-credential control, remote OT agent updates from the ICP, and enhanced diagnostics with deeper asset log metadata. Also includes major stability fixes for Milestone, AvigilonES, and Exacq Edge IoT connector integrations."
+        },
+        {
+          "product": "Tenable Web App Scanning",
+          "tag": "New Feature",
+          "title": "Secrets Validation \u2014 Automatic Live Credential Testing",
+          "description": "New Secrets Validation capability automatically tests detected tokens \u2014 GitHub keys, AI service API keys, and other credentials \u2014 to determine if they are live and exploitable. Distinguishes between harmless strings and critical vulnerabilities, enabling prioritization based on real-world risk rather than noise from false positives."
+        },
+        {
+          "product": "Tenable Patch Management",
+          "tag": "Enhancement",
+          "title": "Patch Management v10.0.971.26 \u2014 Strategy & Compliance Fixes",
+          "description": "Critical update addressing strategy corruption bugs and inaccurate compliance reporting. Includes modernized performance improvements and security updates via Java 25. Ensures patch workflows remain intact and compliance data stays accurate for reporting and audit purposes."
+        }
+      ]
+    },
     {
       "edition": "December 2025",
       "month": "2025-12",
@@ -9,13 +105,13 @@
           "product": "Tenable One",
           "tag": "New Feature",
           "title": "Native Jira & ServiceNow Ticket Creation",
-          "description": "Automatic ticket generation from findings directly into Jira Cloud and ServiceNow ITSM. Teams can now close the loop between exposure discovery and remediation without leaving the platform — no manual export, no copy-paste, no workflow gap."
+          "description": "Automatic ticket generation from findings directly into Jira Cloud and ServiceNow ITSM. Teams can now close the loop between exposure discovery and remediation without leaving the platform \u2014 no manual export, no copy-paste, no workflow gap."
         },
         {
           "product": "Tenable One",
           "tag": "New Feature",
-          "title": "Granular RBAC — Read-Only & Custom Exposure Roles",
-          "description": "New read-only role and a fully customizable Exposure Management role with tag enforcement. Admins can now control exactly who can view, act on, and export data across Tenable One modules — enabling broader stakeholder access without risking data integrity."
+          "title": "Granular RBAC \u2014 Read-Only & Custom Exposure Roles",
+          "description": "New read-only role and a fully customizable Exposure Management role with tag enforcement. Admins can now control exactly who can view, act on, and export data across Tenable One modules \u2014 enabling broader stakeholder access without risking data integrity."
         }
       ]
     },
@@ -27,7 +123,7 @@
           "product": "Tenable One",
           "tag": "Enhancement",
           "title": "Editable Dashboard Widgets",
-          "description": "Users can now edit both built-in and custom dashboard widgets directly — adjusting widget type, categories, values, data labels, stacking, and filters without rebuilding from scratch."
+          "description": "Users can now edit both built-in and custom dashboard widgets directly \u2014 adjusting widget type, categories, values, data labels, stacking, and filters without rebuilding from scratch."
         },
         {
           "product": "Tenable One",
@@ -45,12 +141,12 @@
           "product": "Tenable One",
           "tag": "New Feature",
           "title": "Inventory Export (CSV & JSON)",
-          "description": "Asset and finding data from the inventory can now be exported directly to CSV or JSON format. Makes it simple to share insights across teams, feed data into reporting tools, or provide evidence for audits — without needing to build a custom integration."
+          "description": "Asset and finding data from the inventory can now be exported directly to CSV or JSON format. Makes it simple to share insights across teams, feed data into reporting tools, or provide evidence for audits \u2014 without needing to build a custom integration."
         },
         {
           "product": "Tenable One",
           "tag": "Enhancement",
-          "title": "Attack Path Analysis — New MITRE ATT&CK Filters",
+          "title": "Attack Path Analysis \u2014 New MITRE ATT&CK Filters",
           "description": "Attack paths can now be filtered by MITRE ATT&CK technique ID and 'Archived by User' status, enabling faster and more targeted investigation of specific adversary techniques."
         },
         {
@@ -69,7 +165,7 @@
           "product": "Tenable One",
           "tag": "New Feature",
           "title": "Findings Global Search",
-          "description": "Advanced custom query builder directly on the Findings page — supporting structured filters, operators, properties, and workflow selectors. Eliminates the need to switch pages or export data to run complex queries."
+          "description": "Advanced custom query builder directly on the Findings page \u2014 supporting structured filters, operators, properties, and workflow selectors. Eliminates the need to switch pages or export data to run complex queries."
         },
         {
           "product": "Tenable One",
@@ -105,7 +201,7 @@
           "product": "Tenable One",
           "tag": "Enhancement",
           "title": "Tag Creation from Global Asset Search",
-          "description": "Tags can now be created directly from a search query on the Assets page — instantly converting any search result into a dynamic tag without rebuilding filters in the tagging workflow."
+          "description": "Tags can now be created directly from a search query on the Assets page \u2014 instantly converting any search result into a dynamic tag without rebuilding filters in the tagging workflow."
         },
         {
           "product": "Tenable One",
@@ -128,7 +224,7 @@
         {
           "product": "Tenable One",
           "tag": "GA Release",
-          "title": "Tenable AI Exposure — General Availability",
+          "title": "Tenable AI Exposure \u2014 General Availability",
           "description": "General availability of the AI Exposure module within Tenable One. Unifies AI asset discovery, shadow AI detection, non-human identity governance, and AI risk prioritization in a single platform."
         },
         {
@@ -146,13 +242,13 @@
         {
           "product": "Tenable One",
           "tag": "Enhancement",
-          "title": "Attack Path Analysis — AI Assistant Button",
+          "title": "Attack Path Analysis \u2014 AI Assistant Button",
           "description": "Added an AI Assistant button in the Attack Path Analysis canvas interaction panel, enabling natural language queries and AI-guided investigation directly within the attack path workflow."
         },
         {
           "product": "Tenable One",
           "tag": "Enhancement",
-          "title": "Attack Path Analysis — 25% Performance Improvement",
+          "title": "Attack Path Analysis \u2014 25% Performance Improvement",
           "description": "Data pipeline execution time reduced by 25%. Attack Path Analysis now processes only licensed assets, optimizing performance and reducing data processing overhead for large environments."
         },
         {
@@ -182,7 +278,7 @@
         {
           "product": "Tenable Vulnerability Management",
           "tag": "New Feature",
-          "title": "Exposure Response — Initiatives",
+          "title": "Exposure Response \u2014 Initiatives",
           "description": "New Exposure Response section in Tenable VM. Enables creation of initiatives to track identification of critical exposures and team response, with SLA assignment and vulnerability targeting."
         }
       ]
@@ -194,7 +290,7 @@
         {
           "product": "Tenable One",
           "tag": "New Feature",
-          "title": "Inventory Module — Asset, Tag & Weakness Views",
+          "title": "Inventory Module \u2014 Asset, Tag & Weakness Views",
           "description": "Introduction of the new Inventory application with dedicated views for Assets, Tags, and Weaknesses. Includes asset classes, new asset properties, static and dynamic tag creation, and a Weakness Inventory."
         },
         {
@@ -219,12 +315,12 @@
           "product": "Tenable Vulnerability Management",
           "tag": "Enhancement",
           "title": "Configurable Plugin Update Plans",
-          "description": "New Configure Plugin Update Plan setting in Agent Profiles. Teams can now auto-update, delay plugin updates by 1–30 days, or pin to a specific delayed set — enabling testing environments to validate plugins before production rollout."
+          "description": "New Configure Plugin Update Plan setting in Agent Profiles. Teams can now auto-update, delay plugin updates by 1\u201330 days, or pin to a specific delayed set \u2014 enabling testing environments to validate plugins before production rollout."
         },
         {
           "product": "Tenable Vulnerability Management",
           "tag": "New Feature",
-          "title": "API Access Security — Source IP Restriction",
+          "title": "API Access Security \u2014 Source IP Restriction",
           "description": "Tenable VM now supports source IP address restrictions for public API access. Administrators can allowlist specific IPv4/IPv6 addresses, ranges, or CIDR blocks for extra API authentication."
         },
         {
