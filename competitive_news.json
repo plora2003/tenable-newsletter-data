@@ -1,0 +1,130 @@
+{
+  "lastUpdated": "2026-03-20",
+  "competitors": [
+    {
+      "id": "wiz",
+      "name": "Wiz",
+      "color": "#facc15",
+      "tagline": "Cloud Security Platform",
+      "watchFor": "Cloud-only positioning, agentless messaging, CNAPP consolidation pitches"
+    },
+    {
+      "id": "qualys",
+      "name": "Qualys",
+      "color": "#4dca7a",
+      "tagline": "Vulnerability & Risk Platform",
+      "watchFor": "TruRisk score comparisons, VM pricing pressure, platform bundling offers"
+    },
+    {
+      "id": "crowdstrike",
+      "name": "CrowdStrike",
+      "color": "#f87171",
+      "tagline": "Falcon Exposure Management",
+      "watchFor": "Spotlight bundling with Falcon, endpoint-to-exposure upsell, identity protection push"
+    },
+    {
+      "id": "rapid7",
+      "name": "Rapid7",
+      "color": "#fb923c",
+      "tagline": "InsightVM & Exposure Command",
+      "watchFor": "VM displacement plays, MDR bundling, cloud security expansion"
+    },
+    {
+      "id": "paloalto",
+      "name": "Palo Alto Networks",
+      "color": "#38bdf8",
+      "tagline": "Prisma Cloud / Cortex Xpanse",
+      "watchFor": "CNAPP consolidation, ASM + VM bundling, platform pricing pressure"
+    }
+  ],
+  "news": [
+    {
+      "id": "wiz-001",
+      "competitor": "wiz",
+      "date": "2026-02-10",
+      "category": "Product",
+      "title": "Wiz expands AI-SPM capabilities with runtime threat detection",
+      "summary": "Wiz announced expanded AI Security Posture Management features including runtime threat detection for AI workloads. Adds visibility into model behavior and data access patterns during inference — moving closer to Tenable's AI Exposure territory.",
+      "impact": "High",
+      "howToRespond": "Acknowledge Wiz is strong in cloud AI posture, but point out they still have no coverage for shadow AI (tools adopted without IT approval), non-human identity governance, or AI risk outside the cloud boundary. Tenable AI Exposure covers the full enterprise AI surface.",
+      "sourceUrl": "https://www.wiz.io/blog"
+    },
+    {
+      "id": "wiz-002",
+      "competitor": "wiz",
+      "date": "2025-12-15",
+      "category": "Pricing",
+      "title": "Wiz reportedly offering aggressive discounts to displace CNAPP incumbents",
+      "summary": "Multiple field reports indicate Wiz is offering 30-40% discounts to customers evaluating CNAPP replacements, particularly targeting Prisma Cloud and Tenable Cloud Security customers ahead of renewals.",
+      "impact": "High",
+      "howToRespond": "Don't compete on price alone — compete on breadth. Wiz discounts to $0 if they only cover cloud. Tenable covers 5 surfaces. Ask the customer: 'What does Wiz cover for your on-prem, OT, and identity environments?' The silence answers the question.",
+      "sourceUrl": ""
+    },
+    {
+      "id": "qualys-001",
+      "competitor": "qualys",
+      "date": "2026-01-22",
+      "category": "Product",
+      "title": "Qualys launches TotalCloud 2.0 with expanded CNAPP capabilities",
+      "summary": "Qualys announced TotalCloud 2.0 with improved CSPM, new container security features, and tighter integration with VMDR. Positions it as a unified cloud + VM platform to compete with Tenable One's cross-surface story.",
+      "impact": "Medium",
+      "howToRespond": "TotalCloud is Qualys adding cloud capabilities on top of a VM product — it's additive, not architected as a platform. Tenable One was built as a unified exposure platform from the ground up. Key gaps Qualys still can't fill: dedicated AD security, passive OT monitoring, AI exposure, and cross-surface attack path analysis.",
+      "sourceUrl": "https://www.qualys.com/news/"
+    },
+    {
+      "id": "qualys-002",
+      "competitor": "qualys",
+      "date": "2025-11-08",
+      "category": "Pricing",
+      "title": "Qualys introduces asset-based pricing bundles targeting Tenable VM renewals",
+      "summary": "Qualys field teams are actively pitching bundled VMDR + TruRisk packages at renewal time with price-match guarantees targeting Tenable Vulnerability Management customers, particularly in the mid-market.",
+      "impact": "High",
+      "howToRespond": "If a customer brings up Qualys pricing: reframe the conversation around total value, not line-item cost. Ask them to compare the full capability set — Qualys has no AD product, no passive OT scanner, and no AI exposure tool. The Tenable One bundle often comes out ahead on total cost when you factor in the tools it replaces.",
+      "sourceUrl": ""
+    },
+    {
+      "id": "crowdstrike-001",
+      "competitor": "crowdstrike",
+      "date": "2026-02-28",
+      "category": "Product",
+      "title": "CrowdStrike announces Falcon for OT — limited early access",
+      "summary": "CrowdStrike announced early access for Falcon for OT, an agent-based OT security solution targeting Windows-based industrial control systems. Currently limited to Windows ICS environments and does not support passive monitoring of Purdue model layer 0-1 devices.",
+      "impact": "Medium",
+      "howToRespond": "Falcon for OT requires an agent on Windows-based ICS systems — it cannot passively monitor PLCs, HMIs, SCADA systems, or legacy OT devices at the network level. Tenable OT Security's passive monitoring approach means zero risk of disrupting operational systems. For any customer with true OT environments, this is a significant architectural difference.",
+      "sourceUrl": "https://www.crowdstrike.com/blog"
+    },
+    {
+      "id": "crowdstrike-002",
+      "competitor": "crowdstrike",
+      "date": "2025-12-01",
+      "category": "Bundling",
+      "title": "CrowdStrike bundling Falcon Spotlight 'free' with Falcon Complete renewals",
+      "summary": "CrowdStrike is including Falcon Spotlight vulnerability management at no additional cost for customers renewing Falcon Complete (MDR) contracts, framing it as an alternative to standalone VM tools.",
+      "impact": "High",
+      "howToRespond": "Spotlight being 'free' is only free if you already have complete Falcon coverage across all assets — which most enterprises don't. It sees only managed endpoints with agents. Remind the customer: unmanaged devices, network gear, OT assets, cloud infrastructure without agents, and their AD environment are all invisible to Spotlight. Free coverage of 60% of your environment still leaves 40% blind.",
+      "sourceUrl": ""
+    },
+    {
+      "id": "rapid7-001",
+      "competitor": "rapid7",
+      "date": "2026-01-15",
+      "category": "Product",
+      "title": "Rapid7 launches Exposure Command — unified exposure management platform",
+      "summary": "Rapid7 announced Exposure Command, a new platform layer combining InsightVM, surface command, and threat intelligence into a unified exposure management view. Direct positioning against Tenable One's Cyber Exposure Score.",
+      "impact": "Medium",
+      "howToRespond": "Rapid7's platform story is newer and narrower — Exposure Command is primarily IT vulnerability management with some ASM. It has no dedicated OT product, no purpose-built AD/identity security, and no AI exposure capability. Tenable One covers all 5 surfaces with purpose-built products. Also worth noting: Tenable was named a Leader in the 2025 Gartner Magic Quadrant for Exposure Assessment Platforms — Rapid7 was not.",
+      "sourceUrl": "https://www.rapid7.com/blog"
+    },
+    {
+      "id": "paloalto-001",
+      "competitor": "paloalto",
+      "date": "2026-03-05",
+      "category": "Product",
+      "title": "Palo Alto expands Cortex Xpanse with internal attack surface capabilities",
+      "summary": "Palo Alto Networks announced Xpanse Active ASM now includes some internal network discovery features, attempting to bridge external and internal attack surface coverage. Competes more directly with Tenable's ASM + VM combination.",
+      "impact": "Medium",
+      "howToRespond": "Xpanse is an external attack surface tool adding some internal visibility — it's still architecturally built outward-in. Tenable ASM feeds natively into Tenable VM so discovered external assets are automatically scanned internally. More importantly, Palo Alto still has no OT security product, no dedicated AD security tool, and Prisma Cloud doesn't integrate with their ASM in a unified exposure score the way Tenable One does.",
+      "sourceUrl": "https://www.paloaltonetworks.com/blog"
+    }
+  ]
+}
