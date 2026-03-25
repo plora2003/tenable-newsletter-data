@@ -1,0 +1,157 @@
+{
+  "lastUpdated": "2026-03-24",
+  "upcoming": [
+    {
+      "id": "web-001",
+      "title": "Tenable Office Hours",
+      "description": "Recurring ask-me-anything sessions for Tenable Security Center, Vulnerability Management, Cloud Security, Identity Exposure, and OT Security. Hosted by product experts across all time zones.",
+      "date": "2026-12-31",
+      "time": "Multiple sessions \u2014 check registration page for times",
+      "region": "Global",
+      "product": "General / All Products",
+      "type": "Office Hours",
+      "registerUrl": "https://www.tenable.com/webinars/tenable-office-hours",
+      "replayUrl": ""
+    },
+    {
+      "id": "web-002",
+      "title": "Tenable OT Office Hours \u2014 EMEA Q4 2026",
+      "description": "Quarterly ask-me-anything session for Tenable OT Security customers in EMEA. Open Q&A with OT product specialists.",
+      "date": "2026-11-18",
+      "time": "Check registration page for time",
+      "region": "EMEA",
+      "product": "OT Security",
+      "type": "Office Hours",
+      "registerUrl": "https://www.tenable.com/webinars/emea-tenable-ot-office-hours-q4-2026",
+      "replayUrl": ""
+    },
+    {
+      "id": "web-003",
+      "title": "\u5728\u7ebf\u95ee\u7b54\u4f1a (Mandarin Office Hours)",
+      "description": "Recurring Mandarin-language ask-me-anything session for Tenable customers in APAC.",
+      "date": "2026-04-23",
+      "time": "Check registration page for time",
+      "region": "APJ",
+      "product": "General / All Products",
+      "type": "Office Hours",
+      "registerUrl": "https://www.tenable.com/webinars/tenable-mandarin-office-hours",
+      "replayUrl": ""
+    },
+    {
+      "id": "web-004",
+      "title": "AI\u5c0e\u5165\u306e\u300c\u6b7b\u89d2\u300d\u3092\u30bc\u30ed\u306b\u3059\u308b\uff1aIT\u62c5\u5f53\u8005\u304c\u4eca\u3059\u3050\u5b9f\u8df5\u3059\u3079\u304dAI\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306e3\u5927\u9244\u5247",
+      "description": "Japanese-language webinar covering three key rules for AI security that IT teams should implement immediately to eliminate blind spots in AI adoption.",
+      "date": "2026-04-09",
+      "time": "Check registration page for time",
+      "region": "APJ",
+      "product": "AI Exposure",
+      "type": "Industry Webinar",
+      "registerUrl": "https://www.tenable.com/webinars/apac-3-golden-rules-for-ai-security",
+      "replayUrl": ""
+    },
+    {
+      "id": "web-005",
+      "title": "Tenable Customer Update Webinar \u2014 April 2026",
+      "description": "Fast-paced overview of recent product updates and best practices hosted by Tenable product experts. Covers how to better secure your expanding attack surface and consolidate critical security data.",
+      "date": "2026-04-09",
+      "time": "11am EST / 3pm BST",
+      "region": "Global",
+      "product": "General / All Products",
+      "type": "Product Update",
+      "registerUrl": "https://www.tenable.com/webinars/tenable-customer-update-april-2026",
+      "replayUrl": ""
+    },
+    {
+      "id": "web-006",
+      "title": "EXPOSURE 2026 \u2014 Security Conference",
+      "description": "The first-ever conference dedicated exclusively to proactive, unified exposure management. Hands-on training with Exposure Management Strategy or Tenable One Technical Training, plus insights from Tenable leaders and industry experts. Early-bird pricing ends March 31.",
+      "date": "2026-05-19",
+      "time": "May 19\u201321, 2026 \u2014 Boston, MA",
+      "region": "Americas",
+      "product": "Tenable One",
+      "type": "Conference",
+      "registerUrl": "https://events.tenable.com/8o4Rl5",
+      "replayUrl": ""
+    },
+    {
+      "id": "web-007",
+      "title": "Tenable OT Office Hours \u2014 EMEA Q3 2026",
+      "description": "Quarterly ask-me-anything session for Tenable OT Security customers in EMEA.",
+      "date": "2026-09-02",
+      "time": "Check registration page for time",
+      "region": "EMEA",
+      "product": "OT Security",
+      "type": "Office Hours",
+      "registerUrl": "https://www.tenable.com/webinars/emea-tenable-ot-office-hours-q3-2026",
+      "replayUrl": ""
+    },
+    {
+      "id": "web-008",
+      "title": "Tenable OT Office Hours \u2014 EMEA Q2 2026",
+      "description": "Quarterly ask-me-anything session for Tenable OT Security customers in EMEA.",
+      "date": "2026-06-09",
+      "time": "Check registration page for time",
+      "region": "EMEA",
+      "product": "OT Security",
+      "type": "Office Hours",
+      "registerUrl": "https://www.tenable.com/webinars/emea-tenable-ot-office-hours-q2-2026",
+      "replayUrl": ""
+    }
+  ],
+  "ondemand": [
+    {
+      "id": "od-001",
+      "title": "Cloud Vulnerability Management",
+      "description": "French-language webinar covering cloud vulnerability management best practices across AWS, Azure, and GCP environments.",
+      "date": "2026-03-12",
+      "product": "Cloud Security",
+      "type": "On-Demand",
+      "replayUrl": "https://www.tenable.com/webinars/emea-cloud-vulnerability-management"
+    },
+    {
+      "id": "od-002",
+      "title": "Tenable\u306e\u8106\u5f31\u6027\u7ba1\u7406\u88fd\u54c1\u306e\u30ae\u30e2\u30f3\u306b\u3059\u3079\u3066\u304a\u7b54\u3048\u3057\u307e\u3059\uff01 (Japanese VM Q&A)",
+      "description": "Japanese-language ask-me-anything session covering all questions about Tenable's vulnerability management products.",
+      "date": "2026-03-12",
+      "product": "Vulnerability Management",
+      "type": "On-Demand",
+      "replayUrl": "https://www.tenable.com/webinars/jp-ask-me-anything"
+    },
+    {
+      "id": "od-003",
+      "title": "The Invisible Keys to the Kingdom \u2013 Securing Active Directory as Part of an Evolving CTEM Practice",
+      "description": "How to secure Active Directory as part of a modern Continuous Threat Exposure Management practice, covering common AD misconfigurations and attack paths to domain admin.",
+      "date": "2026-03-12",
+      "product": "Identity Exposure",
+      "type": "On-Demand",
+      "replayUrl": "https://www.tenable.com/webinars/india-invisible-keys-to-the-kingdom"
+    },
+    {
+      "id": "od-004",
+      "title": "Escape the Patching Cycle: A Guide to Autonomous Risk-Based Patching",
+      "description": "How to move beyond reactive patching to a proactive, risk-based approach that prioritises the vulnerabilities that truly matter using VPR scoring.",
+      "date": "2026-01-01",
+      "product": "Patch Management",
+      "type": "On-Demand",
+      "replayUrl": "https://www.tenable.com/webinars"
+    },
+    {
+      "id": "od-005",
+      "title": "Securing the Future of AI in Your Enterprise: Policy Frameworks That Balance Opportunity and Oversight",
+      "description": "How organisations can build governance frameworks for AI adoption that prevent data leakage and maintain compliance without blocking innovation.",
+      "date": "2026-01-01",
+      "product": "AI Exposure",
+      "type": "On-Demand",
+      "replayUrl": "https://www.tenable.com/webinars"
+    },
+    {
+      "id": "od-006",
+      "title": "Exposure Management Business Theory",
+      "description": "Five self-paced modules covering the exposure lifecycle: scoping, discovery, prioritisation, validation, and mobilisation. Available at no cost in Tenable University.",
+      "date": "2026-02-01",
+      "product": "Tenable One",
+      "type": "Training",
+      "replayUrl": "https://university.tenable.com"
+    }
+  ]
+}
