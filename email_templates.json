@@ -5,37 +5,37 @@
       "id": "exec",
       "label": "Executive / CISO",
       "color": "#a78bfa",
-      "icon": "◈"
+      "icon": "\u25c8"
     },
     {
       "id": "expansion",
       "label": "Expansion & Upsell",
       "color": "#00c8d8",
-      "icon": "↑"
+      "icon": "\u2191"
     },
     {
       "id": "competitive",
       "label": "Competitive Displacement",
       "color": "#f4883a",
-      "icon": "⊗"
+      "icon": "\u2297"
     },
     {
       "id": "renewal",
       "label": "Renewal & Retention",
       "color": "#4dca7a",
-      "icon": "◎"
+      "icon": "\u25ce"
     },
     {
       "id": "onboarding",
       "label": "Onboarding & Adoption",
       "color": "#38bdf8",
-      "icon": "▶"
+      "icon": "\u25b6"
     },
     {
       "id": "qbr",
       "label": "QBR & Value Proof",
       "color": "#facc15",
-      "icon": "◆"
+      "icon": "\u25c6"
     }
   ],
   "templates": [
@@ -44,23 +44,23 @@
       "category": "exec",
       "persona": "CISO",
       "product": "AI Exposure",
-      "subject": "AI is your fastest-growing attack surface — here's how [Customer] can get ahead of it",
-      "body": "Hi [First Name],\n\nI wanted to reach out about something we're seeing across almost every customer conversation right now: AI adoption is outpacing security teams' ability to govern it.\n\nThe average enterprise now has dozens of AI tools, agents, and integrations in use — and a significant portion of them were adopted by individual teams without IT or security approval. That shadow AI problem is real, and it creates data leakage risks, compliance gaps, and attack paths that traditional security tools simply can't see.\n\nTenable now has a dedicated solution for this: Tenable AI Exposure. It continuously discovers AI assets across your environment — including sanctioned tools, shadow AI, AI agents, and non-human identities — and ties the risk back to your existing Cyber Exposure Score in Tenable One.\n\nGiven what I know about [Customer]'s environment, I think there are a few specific scenarios worth discussing:\n\n- Shadow AI: which tools are your teams using that haven't been reviewed or approved?\n- Non-human identities: AI agents that have access to sensitive systems are increasingly being targeted by attackers\n- AI governance: building a framework for secure AI adoption before regulators require it\n\nWould you have 20 minutes in the next week or two for a brief conversation? I'd like to show you specifically what we're finding in environments similar to yours.\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "subject": "AI is your fastest-growing attack surface \u2014 here's how [Customer] can get ahead of it",
+      "body": "Hi [First Name],\n\nI wanted to reach out about something we're seeing across almost every customer conversation right now: AI adoption is outpacing security teams' ability to govern it.\n\nThe average enterprise now has dozens of AI tools, agents, and integrations in use \u2014 and a significant portion of them were adopted by individual teams without IT or security approval. That shadow AI problem is real, and it creates data leakage risks, compliance gaps, and attack paths that traditional security tools simply can't see.\n\nTenable now has a dedicated solution for this: Tenable AI Exposure. It continuously discovers AI assets across your environment \u2014 including sanctioned tools, shadow AI, AI agents, and non-human identities \u2014 and ties the risk back to your existing Cyber Exposure Score in Tenable One.\n\nGiven what I know about [Customer]'s environment, I think there are a few specific scenarios worth discussing:\n\n- Shadow AI: which tools are your teams using that haven't been reviewed or approved?\n- Non-human identities: AI agents that have access to sensitive systems are increasingly being targeted by attackers\n- AI governance: building a framework for secure AI adoption before regulators require it\n\nWould you have 20 minutes in the next week or two for a brief conversation? I'd like to show you specifically what we're finding in environments similar to yours.\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "AI Exposure",
         "CISO",
         "New Capability",
         "Expansion"
       ],
-      "notes": "Use when AI adoption has come up in conversation or when you know the customer is rolling out AI tools. Works well 30–60 days after a QBR to plant a seed for expansion."
+      "notes": "Use when AI adoption has come up in conversation or when you know the customer is rolling out AI tools. Works well 30\u201360 days after a QBR to plant a seed for expansion."
     },
     {
       "id": "em-002",
       "category": "competitive",
       "persona": "CISO / Security Architect",
       "product": "Tenable One",
-      "subject": "A question about your cloud security coverage — and what Wiz can't see",
-      "body": "Hi [First Name],\n\nI know you're using Wiz for cloud security posture management, and from what I've seen it's doing a solid job on the cloud side. I wanted to raise something that comes up frequently when I talk to customers running both Tenable and Wiz.\n\nWiz is excellent at what it does — but its visibility stops at the cloud boundary. The question I'd ask is: what happens when an attacker compromises a cloud resource and pivots to your on-premises Active Directory? Or to an OT environment? Or to an AI agent with access to sensitive data?\n\nTenable One is the only platform that shows you that entire attack chain — from a misconfigured cloud role, through your identity infrastructure, to your most critical internal systems — in a single view. That cross-surface attack path analysis is something Wiz architecturally cannot provide.\n\nI'm not suggesting you replace Wiz. I'm suggesting that Wiz alone leaves gaps that attackers actively exploit. Tenable One closes them.\n\nI'd love to run a quick surface audit with you — 30 minutes to map which surfaces you currently have visibility into and where the gaps are. Would that be useful?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "subject": "A question about your cloud security coverage \u2014 and what Wiz can't see",
+      "body": "Hi [First Name],\n\nI know you're using Wiz for cloud security posture management, and from what I've seen it's doing a solid job on the cloud side. I wanted to raise something that comes up frequently when I talk to customers running both Tenable and Wiz.\n\nWiz is excellent at what it does \u2014 but its visibility stops at the cloud boundary. The question I'd ask is: what happens when an attacker compromises a cloud resource and pivots to your on-premises Active Directory? Or to an OT environment? Or to an AI agent with access to sensitive data?\n\nTenable One is the only platform that shows you that entire attack chain \u2014 from a misconfigured cloud role, through your identity infrastructure, to your most critical internal systems \u2014 in a single view. That cross-surface attack path analysis is something Wiz architecturally cannot provide.\n\nI'm not suggesting you replace Wiz. I'm suggesting that Wiz alone leaves gaps that attackers actively exploit. Tenable One closes them.\n\nI'd love to run a quick surface audit with you \u2014 30 minutes to map which surfaces you currently have visibility into and where the gaps are. Would that be useful?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Tenable One",
         "Competitive",
@@ -68,7 +68,7 @@
         "Cloud Security",
         "Attack Path"
       ],
-      "notes": "Use when a Tenable VM or Cloud Security customer mentions they also use Wiz, or when Wiz is competing at renewal. Lead with respect for Wiz — don't dismiss it. The pivot is about coverage breadth, not product quality."
+      "notes": "Use when a Tenable VM or Cloud Security customer mentions they also use Wiz, or when Wiz is competing at renewal. Lead with respect for Wiz \u2014 don't dismiss it. The pivot is about coverage breadth, not product quality."
     },
     {
       "id": "em-003",
@@ -76,7 +76,7 @@
       "persona": "CISO / Security Director",
       "product": "Tenable One",
       "subject": "Re: consolidating your security tools",
-      "body": "Hi [First Name],\n\nFollowing up on our conversation about tool consolidation — I wanted to share a few thoughts before your next budget review.\n\nThe consolidation instinct is right. The average enterprise runs 83 different security tools, and the overhead — licensing, training, integration, alert triage across platforms — is significant. The question is what you consolidate to and whether the consolidation is actually complete.\n\nMost platform pitches consolidate well in one area but create new gaps elsewhere. CrowdStrike is excellent on managed endpoints — but your OT devices, unmanaged assets, and Active Directory aren't covered. Qualys goes deep on IT vulnerability management but has no AD product, no OT tool, and no AI exposure capability.\n\nTenable One is the only platform that covers all five attack surfaces — IT, cloud, OT, identity, and AI — in a single exposure score. That's the difference between partial consolidation and complete consolidation.\n\nCustomers who move from a collection of point tools to Tenable One typically see a 20–35% reduction in total security tooling cost within 12 months, along with a dramatic reduction in the time their team spends correlating data across platforms.\n\nI'd like to walk you through what that consolidation would look like specifically for [Customer]. Can we find 30 minutes this week?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "body": "Hi [First Name],\n\nFollowing up on our conversation about tool consolidation \u2014 I wanted to share a few thoughts before your next budget review.\n\nThe consolidation instinct is right. The average enterprise runs 83 different security tools, and the overhead \u2014 licensing, training, integration, alert triage across platforms \u2014 is significant. The question is what you consolidate to and whether the consolidation is actually complete.\n\nMost platform pitches consolidate well in one area but create new gaps elsewhere. CrowdStrike is excellent on managed endpoints \u2014 but your OT devices, unmanaged assets, and Active Directory aren't covered. Qualys goes deep on IT vulnerability management but has no AD product, no OT tool, and no AI exposure capability.\n\nTenable One is the only platform that covers all five attack surfaces \u2014 IT, cloud, OT, identity, and AI \u2014 in a single exposure score. That's the difference between partial consolidation and complete consolidation.\n\nCustomers who move from a collection of point tools to Tenable One typically see a 20\u201335% reduction in total security tooling cost within 12 months, along with a dramatic reduction in the time their team spends correlating data across platforms.\n\nI'd like to walk you through what that consolidation would look like specifically for [Customer]. Can we find 30 minutes this week?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Tenable One",
         "Competitive",
@@ -93,14 +93,14 @@
       "persona": "Security Manager / CISO",
       "product": "Identity Exposure",
       "subject": "One question about [Customer]'s Active Directory security",
-      "body": "Hi [First Name],\n\nQuick question — when did [Customer] last audit Active Directory for misconfigurations like unconstrained delegation, Kerberoastable accounts, or stale privileged access?\n\nThe reason I ask: over 90% of breaches involve Active Directory at some point in the attack chain. It's the most targeted system in enterprise environments, and it's also the most commonly under-monitored — because most VM tools don't scan it the way they scan endpoints and servers.\n\nTenable Identity Exposure gives you continuous visibility into AD and Entra ID misconfigurations and attack paths, without requiring agents or elevated privileges. It's read-only, non-invasive, and can be operational within a day.\n\nI'd love to run a quick AD health check demo with your team — I think you'd find it eye-opening. The most common reaction I get is \"we had no idea this was exposed.\"\n\nWould 20 minutes work in the next week or two?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "body": "Hi [First Name],\n\nQuick question \u2014 when did [Customer] last audit Active Directory for misconfigurations like unconstrained delegation, Kerberoastable accounts, or stale privileged access?\n\nThe reason I ask: over 90% of breaches involve Active Directory at some point in the attack chain. It's the most targeted system in enterprise environments, and it's also the most commonly under-monitored \u2014 because most VM tools don't scan it the way they scan endpoints and servers.\n\nTenable Identity Exposure gives you continuous visibility into AD and Entra ID misconfigurations and attack paths, without requiring agents or elevated privileges. It's read-only, non-invasive, and can be operational within a day.\n\nI'd love to run a quick AD health check demo with your team \u2014 I think you'd find it eye-opening. The most common reaction I get is \"we had no idea this was exposed.\"\n\nWould 20 minutes work in the next week or two?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Identity Exposure",
         "Active Directory",
         "Expansion",
         "Security Manager"
       ],
-      "notes": "Works well for any VM or Security Center customer who hasn't yet adopted Identity Exposure. Lead with the question — it creates curiosity without feeling like a pitch. Works especially well after any news about an AD-related breach in the customer's industry."
+      "notes": "Works well for any VM or Security Center customer who hasn't yet adopted Identity Exposure. Lead with the question \u2014 it creates curiosity without feeling like a pitch. Works especially well after any news about an AD-related breach in the customer's industry."
     },
     {
       "id": "em-005",
@@ -108,7 +108,7 @@
       "persona": "Security Manager / IT Director",
       "product": "Vulnerability Management",
       "subject": "Is your VM program keeping pace with your environment?",
-      "body": "Hi [First Name],\n\nI was reviewing your account ahead of our next QBR and wanted to raise something before we get on the call.\n\nYou've built a solid vulnerability management program with Nessus — the scan coverage is strong and your team clearly knows the tool well. But I'm seeing a pattern with customers at your stage: the environment has grown faster than the scanning program.\n\nCloud instances, remote endpoints, and containerised workloads are being spun up daily — and point-in-time scanning, no matter how thorough, can't keep pace with that velocity. Assets appear and disappear between scan cycles, and the vulnerabilities on them go unseen.\n\nTenable Vulnerability Management gives you continuous, always-on coverage that automatically discovers and tracks new assets the moment they appear. Paired with VPR prioritisation, your team focuses on the handful of findings that represent real, active risk — rather than working through a list of thousands.\n\nMost customers who make this transition see a 40–60% reduction in MTTR within the first quarter. I'd like to show you what that would look like for your environment specifically.\n\nCould we find 20 minutes before our next QBR to walk through this?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "body": "Hi [First Name],\n\nI was reviewing your account ahead of our next QBR and wanted to raise something before we get on the call.\n\nYou've built a solid vulnerability management program with Nessus \u2014 the scan coverage is strong and your team clearly knows the tool well. But I'm seeing a pattern with customers at your stage: the environment has grown faster than the scanning program.\n\nCloud instances, remote endpoints, and containerised workloads are being spun up daily \u2014 and point-in-time scanning, no matter how thorough, can't keep pace with that velocity. Assets appear and disappear between scan cycles, and the vulnerabilities on them go unseen.\n\nTenable Vulnerability Management gives you continuous, always-on coverage that automatically discovers and tracks new assets the moment they appear. Paired with VPR prioritisation, your team focuses on the handful of findings that represent real, active risk \u2014 rather than working through a list of thousands.\n\nMost customers who make this transition see a 40\u201360% reduction in MTTR within the first quarter. I'd like to show you what that would look like for your environment specifically.\n\nCould we find 20 minutes before our next QBR to walk through this?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Vulnerability Management",
         "Nessus",
@@ -123,8 +123,8 @@
       "category": "renewal",
       "persona": "Security Manager / CISO",
       "product": "General",
-      "subject": "Preparing for your renewal — a few things I want to make sure we cover",
-      "body": "Hi [First Name],\n\nYour renewal is coming up on [Renewal Date] and I wanted to get ahead of it with you rather than waiting until we're in the final stretch.\n\nBefore we get into any commercial conversation, I want to make sure we've done one thing: built a clear picture of the value the program has delivered this year. In my experience, renewals go smoothly when the story is already told — and that story is strongest when it's rooted in your own data.\n\nI'd like to schedule a 30-minute value review before the renewal conversation. We'll pull your metrics from the platform — assets discovered, vulnerabilities found and closed, MTTR improvement, scan coverage — and frame them in the way that's most useful for the conversations you need to have internally.\n\nFrom there, I also want to make sure we discuss:\n- Are there any surfaces in your environment that still aren't covered by the program?\n- Has anything changed in your organisation — headcount, cloud footprint, OT, acquisitions — that we should account for?\n- Are there products or features you've been meaning to explore but haven't had time to activate?\n\nI'd rather have that conversation now than two weeks before the renewal date. Does [proposed date] work for a 30-minute call?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "subject": "Preparing for your renewal \u2014 a few things I want to make sure we cover",
+      "body": "Hi [First Name],\n\nYour renewal is coming up on [Renewal Date] and I wanted to get ahead of it with you rather than waiting until we're in the final stretch.\n\nBefore we get into any commercial conversation, I want to make sure we've done one thing: built a clear picture of the value the program has delivered this year. In my experience, renewals go smoothly when the story is already told \u2014 and that story is strongest when it's rooted in your own data.\n\nI'd like to schedule a 30-minute value review before the renewal conversation. We'll pull your metrics from the platform \u2014 assets discovered, vulnerabilities found and closed, MTTR improvement, scan coverage \u2014 and frame them in the way that's most useful for the conversations you need to have internally.\n\nFrom there, I also want to make sure we discuss:\n- Are there any surfaces in your environment that still aren't covered by the program?\n- Has anything changed in your organisation \u2014 headcount, cloud footprint, OT, acquisitions \u2014 that we should account for?\n- Are there products or features you've been meaning to explore but haven't had time to activate?\n\nI'd rather have that conversation now than two weeks before the renewal date. Does [proposed date] work for a 30-minute call?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Renewal",
         "Value Review",
@@ -138,8 +138,8 @@
       "category": "renewal",
       "persona": "CISO / Security Director",
       "product": "General",
-      "subject": "I'm hearing you're evaluating alternatives — can we talk?",
-      "body": "Hi [First Name],\n\nI heard through [channel] that [Customer] is taking a broader look at the security tooling stack ahead of your renewal. I wanted to reach out directly rather than wait for a formal process.\n\nI'd genuinely welcome the opportunity to understand what's driving the evaluation. If there are gaps in the program, capability requests we haven't addressed, or commercial concerns — I'd rather hear them directly from you than learn about them at the end of a procurement process.\n\nIf the evaluation is really about consolidation or platform comparison, I'd also like the chance to walk through what that looks like with Tenable One in the picture — because the conversation changes significantly when you consider all five surfaces together, not just the products you're currently using.\n\nI'm not asking you to skip the process. I'm asking for 30 minutes to make sure Tenable is being evaluated with full information, and that we have a chance to address anything that might have driven this.\n\nWould you be open to that?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "subject": "I'm hearing you're evaluating alternatives \u2014 can we talk?",
+      "body": "Hi [First Name],\n\nI heard through [channel] that [Customer] is taking a broader look at the security tooling stack ahead of your renewal. I wanted to reach out directly rather than wait for a formal process.\n\nI'd genuinely welcome the opportunity to understand what's driving the evaluation. If there are gaps in the program, capability requests we haven't addressed, or commercial concerns \u2014 I'd rather hear them directly from you than learn about them at the end of a procurement process.\n\nIf the evaluation is really about consolidation or platform comparison, I'd also like the chance to walk through what that looks like with Tenable One in the picture \u2014 because the conversation changes significantly when you consider all five surfaces together, not just the products you're currently using.\n\nI'm not asking you to skip the process. I'm asking for 30 minutes to make sure Tenable is being evaluated with full information, and that we have a chance to address anything that might have driven this.\n\nWould you be open to that?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Renewal",
         "At-Risk",
@@ -147,15 +147,15 @@
         "CISO",
         "Retention"
       ],
-      "notes": "Use when you get intelligence that a customer is evaluating alternatives. Move fast — within 48 hours of hearing about it. Tone should be confident and direct, not defensive. The goal is to get in the room before the process locks."
+      "notes": "Use when you get intelligence that a customer is evaluating alternatives. Move fast \u2014 within 48 hours of hearing about it. Tone should be confident and direct, not defensive. The goal is to get in the room before the process locks."
     },
     {
       "id": "em-008",
       "category": "qbr",
       "persona": "CISO / Security Director",
       "product": "Tenable One",
-      "subject": "Your Q[X] security program results — ready to review",
-      "body": "Hi [First Name],\n\nI've put together a summary of [Customer]'s security program performance for Q[X] and I'd like to walk through it with you before we formalise the QBR agenda.\n\nHere are a few of the highlights I'm planning to cover:\n\n- **Exposure Score trend**: [X] points improvement quarter-over-quarter — here's what drove it\n- **Assets discovered**: [X] net new assets identified automatically, including [notable finding e.g. cloud instances / shadow IT]\n- **Attack paths closed**: [X] critical paths reduced, including [specific example if available]\n- **Remediation velocity**: average MTTR on critical findings moved from [X] to [Y] days\n\nI also want to make sure we use the QBR to look forward, not just back. Specifically, I'd like to discuss:\n- [Surface or product gap relevant to this customer]\n- [Upcoming feature or capability relevant to their priorities]\n- Renewal timeline and whether there are any commercial questions to address\n\nDoes [proposed date/time] work for a 45-minute session? I'll send a calendar invite with the full agenda once confirmed.\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "subject": "Your Q[X] security program results \u2014 ready to review",
+      "body": "Hi [First Name],\n\nI've put together a summary of [Customer]'s security program performance for Q[X] and I'd like to walk through it with you before we formalise the QBR agenda.\n\nHere are a few of the highlights I'm planning to cover:\n\n- **Exposure Score trend**: [X] points improvement quarter-over-quarter \u2014 here's what drove it\n- **Assets discovered**: [X] net new assets identified automatically, including [notable finding e.g. cloud instances / shadow IT]\n- **Attack paths closed**: [X] critical paths reduced, including [specific example if available]\n- **Remediation velocity**: average MTTR on critical findings moved from [X] to [Y] days\n\nI also want to make sure we use the QBR to look forward, not just back. Specifically, I'd like to discuss:\n- [Surface or product gap relevant to this customer]\n- [Upcoming feature or capability relevant to their priorities]\n- Renewal timeline and whether there are any commercial questions to address\n\nDoes [proposed date/time] work for a 45-minute session? I'll send a calendar invite with the full agenda once confirmed.\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "QBR",
         "Tenable One",
@@ -163,15 +163,15 @@
         "Value Proof",
         "CISO"
       ],
-      "notes": "Pre-QBR outreach to set the agenda and signal you're coming prepared. Fill in the metrics with real data before sending. The bracketed items should be personalised — a generic version of this email loses most of its impact."
+      "notes": "Pre-QBR outreach to set the agenda and signal you're coming prepared. Fill in the metrics with real data before sending. The bracketed items should be personalised \u2014 a generic version of this email loses most of its impact."
     },
     {
       "id": "em-009",
       "category": "onboarding",
       "persona": "Security Manager / IT Director",
       "product": "Tenable One",
-      "subject": "30 days in — making sure you're getting full value from Tenable One",
-      "body": "Hi [First Name],\n\nIt's been about 30 days since [Customer] went live on Tenable One, and I wanted to check in to make sure the platform is delivering what you expected.\n\nA few things I'd like to confirm are in place:\n\n1. **Asset coverage**: Are all the asset types you expected — endpoints, cloud, OT, identity — showing up correctly in the inventory?\n2. **Integrations**: Have you connected Tenable One to your SIEM, ticketing system (Jira/ServiceNow), or other tools? These are often the highest-ROI activations in the first 30 days.\n3. **Dashboards**: Is the Cyber Exposure Score dashboard configured for your executive audience? I can help set this up if it hasn't been done yet.\n4. **Attack paths**: Have you had a chance to explore the Attack Path Analysis module? Most teams find two or three findings in the first session that they genuinely didn't know about.\n\nI'd also love to understand if there's anything that isn't working the way you expected, or any surfaces that weren't covered in the initial rollout.\n\nCan we find 20 minutes this week for a quick health check call?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "subject": "30 days in \u2014 making sure you're getting full value from Tenable One",
+      "body": "Hi [First Name],\n\nIt's been about 30 days since [Customer] went live on Tenable One, and I wanted to check in to make sure the platform is delivering what you expected.\n\nA few things I'd like to confirm are in place:\n\n1. **Asset coverage**: Are all the asset types you expected \u2014 endpoints, cloud, OT, identity \u2014 showing up correctly in the inventory?\n2. **Integrations**: Have you connected Tenable One to your SIEM, ticketing system (Jira/ServiceNow), or other tools? These are often the highest-ROI activations in the first 30 days.\n3. **Dashboards**: Is the Cyber Exposure Score dashboard configured for your executive audience? I can help set this up if it hasn't been done yet.\n4. **Attack paths**: Have you had a chance to explore the Attack Path Analysis module? Most teams find two or three findings in the first session that they genuinely didn't know about.\n\nI'd also love to understand if there's anything that isn't working the way you expected, or any surfaces that weren't covered in the initial rollout.\n\nCan we find 20 minutes this week for a quick health check call?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Tenable One",
         "Onboarding",
@@ -179,15 +179,15 @@
         "Health Check",
         "30-Day"
       ],
-      "notes": "Send at the 30-day mark after go-live. The four numbered questions are designed to surface adoption gaps early — before they become renewal risks. A version of this should also be sent at 60 and 90 days with updated focus areas."
+      "notes": "Send at the 30-day mark after go-live. The four numbered questions are designed to surface adoption gaps early \u2014 before they become renewal risks. A version of this should also be sent at 60 and 90 days with updated focus areas."
     },
     {
       "id": "em-010",
       "category": "exec",
       "persona": "CISO / Board",
       "product": "Tenable One",
-      "subject": "One number your board will ask about — and how to answer it",
-      "body": "Hi [First Name],\n\nI've been in a lot of CISO conversations recently where the same question keeps coming up from boards and audit committees: \"Are we getting more secure over time, and how do you know?\"\n\nIt's a deceptively simple question that most security programs can't answer cleanly. Vulnerability counts go up and down. Patch rates fluctuate. The number of critical findings varies by scan cycle. None of it tells a coherent story.\n\nThe Tenable One Cyber Exposure Score is built to answer exactly that question. It's a single number — trending over time — that reflects your organisation's overall exposure posture across IT, cloud, OT, identity, and AI. It goes up when you close attack paths and remediate critical findings; it goes down when new exposures emerge. It's the kind of metric that translates directly into board-level language.\n\nIf [Customer] is not yet using the Cyber Exposure Score as your primary reporting metric to leadership, I'd like to show you how to set it up and how other CISOs in your industry are using it to frame their risk narrative.\n\nWould a 20-minute call this week be useful?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "subject": "One number your board will ask about \u2014 and how to answer it",
+      "body": "Hi [First Name],\n\nI've been in a lot of CISO conversations recently where the same question keeps coming up from boards and audit committees: \"Are we getting more secure over time, and how do you know?\"\n\nIt's a deceptively simple question that most security programs can't answer cleanly. Vulnerability counts go up and down. Patch rates fluctuate. The number of critical findings varies by scan cycle. None of it tells a coherent story.\n\nThe Tenable One Cyber Exposure Score is built to answer exactly that question. It's a single number \u2014 trending over time \u2014 that reflects your organisation's overall exposure posture across IT, cloud, OT, identity, and AI. It goes up when you close attack paths and remediate critical findings; it goes down when new exposures emerge. It's the kind of metric that translates directly into board-level language.\n\nIf [Customer] is not yet using the Cyber Exposure Score as your primary reporting metric to leadership, I'd like to show you how to set it up and how other CISOs in your industry are using it to frame their risk narrative.\n\nWould a 20-minute call this week be useful?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Tenable One",
         "CISO",
@@ -195,7 +195,7 @@
         "Cyber Exposure Score",
         "Executive"
       ],
-      "notes": "Works best for CISOs who are preparing for board presentations or audit committee reviews. The Cyber Exposure Score angle is uniquely Tenable — no competitor has an equivalent single metric across all surfaces."
+      "notes": "Works best for CISOs who are preparing for board presentations or audit committee reviews. The Cyber Exposure Score angle is uniquely Tenable \u2014 no competitor has an equivalent single metric across all surfaces."
     },
     {
       "id": "em-011",
@@ -203,7 +203,7 @@
       "persona": "OT Security Manager / CISO",
       "product": "OT Security",
       "subject": "Do you have full visibility into your OT environment?",
-      "body": "Hi [First Name],\n\nI wanted to reach out about something that doesn't always make it onto the security team's radar: the OT and ICS devices on your network that standard IT scanning tools simply can't see.\n\nHVAC controllers, PLCs, HMIs, SCADA systems, smart building infrastructure — these devices are increasingly connected to corporate networks, and they represent a significant blind spot for most security programs. Traditional scanners can't probe them safely, agents can't run on them, and a single misconfigured scan can disrupt operations.\n\nTenable OT Security takes a completely passive approach — no scanning, no agents, no risk of disruption. It discovers and profiles every OT asset on the network, maps vulnerabilities specific to industrial devices, and feeds that data into the same Tenable One platform you're already using for IT.\n\nThe most common reaction I get when customers run their first OT discovery is surprise at how many devices are there — and how many have vulnerabilities that have never been assessed.\n\nWould you be open to a brief conversation about what an OT visibility assessment might look like for [Customer]?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "body": "Hi [First Name],\n\nI wanted to reach out about something that doesn't always make it onto the security team's radar: the OT and ICS devices on your network that standard IT scanning tools simply can't see.\n\nHVAC controllers, PLCs, HMIs, SCADA systems, smart building infrastructure \u2014 these devices are increasingly connected to corporate networks, and they represent a significant blind spot for most security programs. Traditional scanners can't probe them safely, agents can't run on them, and a single misconfigured scan can disrupt operations.\n\nTenable OT Security takes a completely passive approach \u2014 no scanning, no agents, no risk of disruption. It discovers and profiles every OT asset on the network, maps vulnerabilities specific to industrial devices, and feeds that data into the same Tenable One platform you're already using for IT.\n\nThe most common reaction I get when customers run their first OT discovery is surprise at how many devices are there \u2014 and how many have vulnerabilities that have never been assessed.\n\nWould you be open to a brief conversation about what an OT visibility assessment might look like for [Customer]?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "OT Security",
         "Expansion",
@@ -219,7 +219,7 @@
       "persona": "Security Manager / CISO",
       "product": "Tenable One",
       "subject": "Thinking about CrowdStrike for vulnerability management?",
-      "body": "Hi [First Name],\n\nI wanted to reach out because I've heard [Customer] may be evaluating CrowdStrike Falcon Spotlight as part of your endpoint security renewal. I wanted to make sure you have the full picture before that decision is made.\n\nFalcon Spotlight is bundled with Falcon Complete and does provide vulnerability data — but it only sees assets that have a Falcon agent installed. That sounds complete until you account for everything without an agent: network devices, cloud infrastructure without agents, OT/ICS systems, legacy servers, and your Active Directory environment.\n\nIn most enterprises, that's 30–40% of the attack surface — and it's often the 30–40% that attackers target specifically because endpoint security doesn't cover it.\n\nTenable VM scans anything accessible on the network — agent or no agent. And it does so with 220,000+ plugins, the industry's highest detection accuracy, and VPR prioritisation that focuses your team on findings that are actually being exploited right now.\n\nBefore any decision is made, I'd like 20 minutes to show you the coverage comparison side by side. I think it will change the conversation.\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "body": "Hi [First Name],\n\nI wanted to reach out because I've heard [Customer] may be evaluating CrowdStrike Falcon Spotlight as part of your endpoint security renewal. I wanted to make sure you have the full picture before that decision is made.\n\nFalcon Spotlight is bundled with Falcon Complete and does provide vulnerability data \u2014 but it only sees assets that have a Falcon agent installed. That sounds complete until you account for everything without an agent: network devices, cloud infrastructure without agents, OT/ICS systems, legacy servers, and your Active Directory environment.\n\nIn most enterprises, that's 30\u201340% of the attack surface \u2014 and it's often the 30\u201340% that attackers target specifically because endpoint security doesn't cover it.\n\nTenable VM scans anything accessible on the network \u2014 agent or no agent. And it does so with 220,000+ plugins, the industry's highest detection accuracy, and VPR prioritisation that focuses your team on findings that are actually being exploited right now.\n\nBefore any decision is made, I'd like 20 minutes to show you the coverage comparison side by side. I think it will change the conversation.\n\nBest,\n[CSM Name]\n[Title] | Tenable",
       "tags": [
         "Tenable One",
         "Competitive",
@@ -227,7 +227,107 @@
         "Falcon Spotlight",
         "VM"
       ],
-      "notes": "Use when CrowdStrike is being considered as a replacement or alternative to Tenable VM. Move quickly — once a bundling conversation starts it's hard to reopen. Lead with the coverage gap rather than product features."
+      "notes": "Use when CrowdStrike is being considered as a replacement or alternative to Tenable VM. Move quickly \u2014 once a bundling conversation starts it's hard to reopen. Lead with the coverage gap rather than product features."
+    },
+    {
+      "id": "em-013",
+      "category": "expansion",
+      "persona": "CISO / Security Director",
+      "product": "AI Exposure",
+      "subject": "Your AI tools are multiplying \u2014 is your security keeping up?",
+      "body": "Hi [First Name],\n\nI wanted to reach out about something that's come up in almost every CISO conversation I've had this quarter: the gap between how fast AI tools are being adopted and how fast security teams are getting visibility into them.\n\nThe average enterprise added 40+ new AI tools in the past 12 months. Most of them were adopted by individual business units without a formal security review. That means there are AI agents, LLM integrations, and GenAI tools in your environment right now that have access to sensitive data \u2014 and your current security stack has no visibility into them.\n\nThat's exactly the problem Tenable AI Exposure is built to solve. It continuously discovers every AI asset across your environment \u2014 sanctioned tools, shadow AI, AI agents, non-human identities with AI access \u2014 and maps the exposure risk back into your existing Tenable One platform.\n\nThree things it surfaces that most customers don't expect to find:\n- AI tools with access to sensitive data repositories that were never approved by security\n- Non-human identities (service accounts, API keys) used by AI agents that are over-privileged\n- Attack paths that lead from an AI agent through to your most critical infrastructure\n\nGiven that [Customer] is already using [current Tenable product], activating AI Exposure would extend your existing coverage without adding a new platform or a new vendor relationship.\n\nWould a 20-minute demo make sense? I think you'd find what we surface in your environment surprising.\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "AI Exposure",
+        "Expansion",
+        "Shadow AI",
+        "CISO",
+        "Non-Human Identity"
+      ],
+      "notes": "Use when a customer hasn't yet activated AI Exposure but is already on Tenable One or VM. Works especially well when AI adoption has come up in a QBR conversation or when the customer has recently announced an AI initiative publicly. The three bullet points are the most compelling \u2014 try to personalise at least one with something specific to their industry."
+    },
+    {
+      "id": "em-014",
+      "category": "expansion",
+      "persona": "CISO / Security Architect",
+      "product": "AI Exposure",
+      "subject": "The security question every board is asking about AI \u2014 and how to answer it",
+      "body": "Hi [First Name],\n\nI've been speaking with a lot of CISOs recently who are facing the same pressure: their board or audit committee is asking pointed questions about AI risk, and the honest answer is that they don't have a clear picture yet.\n\nThe challenge isn't that the tools aren't there \u2014 it's that AI assets don't behave like traditional IT assets. They appear and disappear quickly, they're adopted outside of IT, they have complex permission relationships, and the risk isn't just about vulnerabilities \u2014 it's about data access, governance, and who (or what) has the keys to sensitive systems.\n\nTenable AI Exposure gives you a board-ready answer to the AI risk question. Specifically, it lets you:\n\n- Show exactly which AI tools exist across your environment and who approved them\n- Identify which AI assets have access to sensitive data and whether that access is appropriate\n- Map attack paths that lead through AI infrastructure to your most critical systems\n- Track your AI exposure score over time \u2014 the same format as your Cyber Exposure Score \u2014 so you can demonstrate governance maturity to leadership\n\nFor [Customer], this would extend your existing Tenable One investment to cover the one surface that's growing fastest in virtually every enterprise environment right now.\n\nI'd like to schedule 30 minutes to walk through what this looks like specifically for your environment. Would [proposed date] work?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "AI Exposure",
+        "Expansion",
+        "Board Reporting",
+        "CISO",
+        "Governance",
+        "Tenable One"
+      ],
+      "notes": "Best used when a customer has board-level pressure around AI governance or when AI has been mentioned as a strategic priority. Pairs well with the Cyber Exposure Score email (em-010). If you know the customer is preparing for a board presentation, offer to help them build the AI risk narrative using Tenable data."
+    },
+    {
+      "id": "em-015",
+      "category": "expansion",
+      "persona": "Security Manager / Security Architect",
+      "product": "AI Exposure",
+      "subject": "Quick question about your AI agent security",
+      "body": "Hi [First Name],\n\nOne question \u2014 does your team currently have visibility into the AI agents running in your environment and what they have access to?\n\nI ask because this is the fastest-moving gap we're seeing across security programs right now. Most teams have good coverage of endpoints, cloud, and identity \u2014 but AI agents are a new class of non-human identity that existing tools weren't built to handle. They act autonomously, they have API access to sensitive systems, and they're often deployed by development or business teams without going through a formal security review.\n\nThe risk is specific: an AI agent that's been granted excessive permissions is a persistent, always-on attack surface. If it's compromised, or if it behaves unexpectedly, the blast radius can be significant \u2014 and most security teams wouldn't see it until it was too late.\n\nTenable AI Exposure maps every AI agent in your environment, shows what it has access to, flags over-privileged access, and ties the risk back into the same prioritisation framework you're already using in Tenable One.\n\nThis isn't a new platform \u2014 it's an extension of what you're already running. Would it be worth 20 minutes to see what it finds in [Customer]'s environment?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "AI Exposure",
+        "AI Agents",
+        "Non-Human Identity",
+        "Expansion",
+        "Security Architect"
+      ],
+      "notes": "More technical angle \u2014 works well for security architects or hands-on security managers rather than CISOs. The single opening question is intentional \u2014 it creates a natural conversation opener. Works especially well at customers who have active development teams building AI-powered applications or integrating LLM APIs."
+    },
+    {
+      "id": "em-016",
+      "category": "expansion",
+      "persona": "CISO / Security Director",
+      "product": "Tenable One",
+      "subject": "You're covering [X] surfaces \u2014 here's what the other ones look like",
+      "body": "Hi [First Name],\n\nI've been doing some preparation for our next conversation and wanted to share something before we get on a call.\n\nBased on what [Customer] currently has deployed with Tenable, you have strong visibility into [current surfaces \u2014 e.g. IT vulnerability management / cloud security]. That's a meaningful part of your attack surface covered.\n\nBut when I map your current coverage against the five surfaces that Tenable One covers, I can see some gaps that are worth discussing:\n\n- [Surface 1 \u2014 e.g. Identity / Active Directory]: [brief reason it matters for this customer]\n- [Surface 2 \u2014 e.g. OT / operational technology]: [brief reason it matters for this customer]\n- [Surface 3 \u2014 e.g. AI Exposure]: [brief reason it matters for this customer]\n\nThe reason this matters isn't just coverage breadth \u2014 it's that attackers move across surfaces. A cloud misconfiguration leads to an identity compromise leads to domain admin in Active Directory. If you can see two of those three steps but not the third, you have a visibility gap exactly where you need it most.\n\nTenable One pulls all five surfaces into a single exposure score and a unified attack path view \u2014 so you see the full chain, not just the parts you're already monitoring.\n\nI'd like to spend 30 minutes with you doing a proper surface audit \u2014 mapping what you have, what you don't, and what the risk looks like in the gaps. Would [proposed date] work?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "Tenable One",
+        "Expansion",
+        "Surface Audit",
+        "Attack Path",
+        "CISO",
+        "Cross-Surface"
+      ],
+      "notes": "This is the most customisable template in the library \u2014 the bracketed sections should all be filled in with real data about the customer before sending. Pull their current product list from Salesforce, identify the uncovered surfaces, and tailor the three bullet points to their specific environment. A generic version of this email is much less effective than a personalised one. Works at any stage of the customer lifecycle."
+    },
+    {
+      "id": "em-017",
+      "category": "expansion",
+      "persona": "CISO / VP of Security",
+      "product": "Tenable One",
+      "subject": "Moving from point tools to a unified exposure score \u2014 what that looks like for [Customer]",
+      "body": "Hi [First Name],\n\nI wanted to share a conversation pattern I've been seeing with CISOs who are 12\u201318 months into a Tenable deployment and starting to think about the next phase of their program.\n\nThe first phase is usually about coverage \u2014 getting visibility into vulnerabilities across IT, cloud, and identity. Most customers get that right. The harder question comes next: how do you take all of that data and turn it into a coherent story for leadership? How do you show that the program is working?\n\nThat's where Tenable One's Exposure Management platform changes the conversation. Instead of presenting a dashboard of vulnerability counts, scan coverage percentages, and MTTR metrics \u2014 which are all process metrics \u2014 you present a single Cyber Exposure Score that reflects your actual risk posture across every surface, trending over time.\n\nThe shift matters because it changes the conversation with your board from \"are we patching fast enough?\" to \"is our organisation becoming more secure?\" Those are very different questions, and the second one is the one boards and regulators are increasingly asking.\n\nFor [Customer] specifically, moving to Tenable One would also activate:\n- Cross-surface attack path analysis \u2014 see how exposures across IT, cloud, and identity chain together\n- AI Exposure coverage \u2014 the fastest-growing new attack surface in most enterprise environments\n- Unified asset inventory \u2014 a single source of truth across every surface you monitor\n\nI'd like to walk you through what this transition would look like for [Customer] \u2014 including what it would cost, what it would replace, and what the ROI story looks like in year one.\n\nWould [proposed date] work for a 30-minute call?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "Tenable One",
+        "Expansion",
+        "Cyber Exposure Score",
+        "Platform",
+        "CISO",
+        "ROI"
+      ],
+      "notes": "Works best for customers who are 1\u20132 years into a Tenable VM or Security Center deployment and are ready to think about the broader platform story. The framing around 'process metrics vs. risk posture' resonates strongly with CISOs who are preparing for board conversations. Pair with the Cyber Exposure Score email (em-010) for a two-touch sequence."
+    },
+    {
+      "id": "em-018",
+      "category": "expansion",
+      "persona": "Security Manager / CISO",
+      "product": "Tenable One",
+      "subject": "One conversation before your next board presentation",
+      "body": "Hi [First Name],\n\nI know you have a board or executive presentation coming up [in Q[X] / next month / soon], and I wanted to reach out before you finalise your materials.\n\nMost security programs present risk to leadership using metrics that are difficult to interpret in a business context \u2014 vulnerability counts, patch rates, mean time to remediation. These are meaningful operationally, but they don't answer the question board members are actually asking, which is: are we more or less exposed to a material breach than we were last quarter?\n\nTenable One's Cyber Exposure Score is built specifically to answer that question. It's a single, trended metric that reflects your organisation's overall exposure posture across IT, cloud, OT, identity, and AI. It goes up when you close attack paths and remediate critical findings. It goes down when new exposures emerge or your environment changes.\n\nI've helped several customers use this as the centrepiece of their board security narrative, and the feedback from boards is consistently that it's the clearest picture of security risk they've ever been shown.\n\nIf you're not yet using Tenable One, I'd like to show you what your Exposure Score would look like based on your current environment \u2014 and what the transition to the full platform would involve.\n\nEven if this conversation doesn't go anywhere commercially right now, I think seeing the metric will change how you think about reporting security risk to your leadership team.\n\nWould 20 minutes this week be possible?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "Tenable One",
+        "Expansion",
+        "Board Reporting",
+        "Cyber Exposure Score",
+        "CISO",
+        "Executive"
+      ],
+      "notes": "Send 4\u20136 weeks before a customer's known board presentation or annual security review. Works especially well if you know the CISO has been asked to improve their risk reporting to leadership. The offer to show what their Exposure Score would look like \u2014 even without a commitment \u2014 is a low-friction way to open the Tenable One conversation."
     }
   ]
 }
