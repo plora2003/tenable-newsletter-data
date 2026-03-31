@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-03-30",
   "categories": [
     {
       "id": "exec",
@@ -328,6 +328,52 @@
         "Executive"
       ],
       "notes": "Send 4\u20136 weeks before a customer's known board presentation or annual security review. Works especially well if you know the CISO has been asked to improve their risk reporting to leadership. The offer to show what their Exposure Score would look like \u2014 even without a commitment \u2014 is a low-friction way to open the Tenable One conversation."
+    },
+    {
+      "id": "em-019",
+      "category": "renewal",
+      "persona": "Security Manager / CISO",
+      "product": "General",
+      "subject": "Still trying to reach you \u2014 [Customer] renewal on [Renewal Date]",
+      "body": "Hi [First Name],\n\nI have reached out a few times over the past [X weeks] and haven't been able to connect. I want to make sure this doesn't fall through the cracks, so I'm sending one more note before your renewal date on [Renewal Date].\n\nI'm not trying to pressure you \u2014 I just want to make sure you have everything you need to make an informed decision, and that we have enough time to address any questions or concerns before the deadline.\n\nIf the timing isn't right, if something has changed internally, or if there's a specific concern you'd like me to address, I'd rather know now so we can work through it together.\n\nEven a quick reply \u2014 even just \"not now, try me in [month]\" \u2014 would be genuinely helpful so I know where things stand.\n\nYou can also reach me directly at [phone number] if that's easier than email.\n\nBest,\n[CSM Name]\n[Title] | Tenable\n[Direct phone number]",
+      "tags": [
+        "Renewal",
+        "Unresponsive",
+        "At-Risk",
+        "Follow-Up"
+      ],
+      "notes": "Use after 3+ unanswered outreach attempts with renewal within 60 days. Keep the tone warm and non-confrontational \u2014 the goal is to reopen the conversation, not to pressure. The explicit offer to hear 'not now' lowers the barrier to a reply significantly. Always include a direct phone number on this one."
+    },
+    {
+      "id": "em-020",
+      "category": "renewal",
+      "persona": "Security Manager / CISO / Economic Buyer",
+      "product": "General",
+      "subject": "Last note before [Renewal Date] \u2014 [Customer]",
+      "body": "Hi [First Name],\n\nI want to be straightforward with you: your Tenable renewal is coming up on [Renewal Date] and I have not been able to reach you or [other contact name] despite several attempts over the past [X weeks].\n\nI don't want your organization to experience a service interruption, and I also don't want the renewal to lapse without you having had a chance to weigh in on it. Both of those outcomes would be bad for your team.\n\nIf everything is fine and you intend to renew, I just need [X minutes] to process the paperwork \u2014 we can make this very quick.\n\nIf something has changed \u2014 budget, priorities, internal restructuring, a concern with the product \u2014 I'd genuinely like to know. There may be more we can do than you realize, whether that's adjusting the contract structure, deferring certain modules, or working through a specific issue together.\n\nIf I don't hear back by [date \u2014 2 weeks before renewal], I will need to escalate internally to make sure your account is covered and there is no disruption to your security program.\n\nI am reachable at [phone number] any time.\n\nBest,\n[CSM Name]\n[Title] | Tenable\n[Direct phone number]",
+      "tags": [
+        "Renewal",
+        "Unresponsive",
+        "At-Risk",
+        "Escalation",
+        "Urgent"
+      ],
+      "notes": "This is the final outreach before escalating internally or looping in the AE and management. Send when renewal is 3\u20134 weeks out and all previous attempts have failed. The tone is direct and honest without being aggressive \u2014 it names the consequence (service interruption, internal escalation) without using it as a threat. The phrase 'there may be more we can do than you realize' is intentional \u2014 it signals flexibility without making a commitment. Always CC your AE on this one."
+    },
+    {
+      "id": "em-021",
+      "category": "renewal",
+      "persona": "IT Director / Security Manager",
+      "product": "General",
+      "subject": "Checking in \u2014 is [First Name] still the right person to talk to?",
+      "body": "Hi [First Name],\n\nI've sent a few notes your way over the past few weeks without hearing back \u2014 I completely understand things get busy, and I don't want to be a nuisance.\n\nI'm wondering if you're still the right person to connect with on the Tenable renewal, or if this has moved to someone else on your team. If so, I'd appreciate a quick introduction so I can make sure we're talking to the right people before [Renewal Date].\n\nIf you are still the point of contact and just haven't had a chance to respond, no problem at all \u2014 just let me know a time that works and I'll make it easy.\n\nEither way, a one-line reply pointing me in the right direction would be a huge help.\n\nThanks,\n[CSM Name]\n[Title] | Tenable\n[Direct phone number]",
+      "tags": [
+        "Renewal",
+        "Unresponsive",
+        "Re-Engagement",
+        "Contact Change"
+      ],
+      "notes": "This is the most disarming of the three unresponsive templates \u2014 it gives the contact an easy out (pointing you to someone else) and frames the ask as a one-line reply. Works well when you suspect the contact may have changed roles, left the company, or the renewal decision has moved to a different stakeholder. Often gets a response when the more direct emails don't, simply because it requires almost no effort to reply to."
     }
   ]
 }
