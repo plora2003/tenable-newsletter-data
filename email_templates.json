@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30",
+  "lastUpdated": "2026-04-02",
   "categories": [
     {
       "id": "exec",
@@ -374,6 +374,23 @@
         "Contact Change"
       ],
       "notes": "This is the most disarming of the three unresponsive templates \u2014 it gives the contact an easy out (pointing you to someone else) and frames the ask as a one-line reply. Works well when you suspect the contact may have changed roles, left the company, or the renewal decision has moved to a different stakeholder. Often gets a response when the more direct emails don't, simply because it requires almost no effort to reply to."
+    },
+    {
+      "id": "em-022",
+      "category": "onboarding",
+      "persona": "Security Manager / Security Architect",
+      "product": "Tenable One",
+      "subject": "Are you getting a full picture of your attack surface in Tenable One?",
+      "body": "Hi [First Name],\n\nQuick question \u2014 how many of your security tools are currently feeding data into Tenable One?\n\nThe reason I ask: most customers we work with are using Tenable One alongside other tools \u2014 CrowdStrike, Wiz, Microsoft Defender, SentinelOne, Qualys, or others \u2014 but those tools are operating in separate dashboards. Each one sees a slice of the environment. None of them see the whole picture.\n\nTenable One's third-party connectors change that. They pull asset and vulnerability data directly from your other security tools into the same platform, so everything \u2014 Tenable-native findings and third-party findings \u2014 gets deduplicated, correlated, and displayed together in a single inventory. Your Cyber Exposure Score reflects the full environment, not just what Tenable sensors see.\n\nA few examples of what this unlocks for [Customer]:\n\n- If you're using [known tool \u2014 e.g. CrowdStrike/Wiz/Microsoft Defender], that data can feed into your Tenable One inventory today \u2014 no coding required\n- Assets that appear in multiple tools get merged into a single record, eliminating the duplicate findings problem\n- Attack paths in APA become more complete because Tenable now has context from tools it previously couldn't see\n- Your Cyber Exposure Score becomes a true single source of truth, not just a Tenable-only view\n\nSetup typically takes less than an hour per connector. There's no additional cost for the connectors that are already part of your Tenable One entitlement.\n\nI'd like to spend 20 minutes walking you through which connectors are most relevant for your environment and getting the first one activated together. Would [proposed date] work?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "Tenable One",
+        "Connectors",
+        "Adoption",
+        "Onboarding",
+        "Integration",
+        "Attack Surface"
+      ],
+      "notes": "Use for any Tenable One customer who hasn't yet configured third-party connectors \u2014 which is the majority. Before sending, check what other security tools the customer is known to use (from Salesforce, past QBR notes, or a quick conversation) and personalise the bracketed tool name in the bullet points. The 'less than an hour' and 'no additional cost' lines are high-conversion \u2014 they remove the two most common objections before the customer raises them. This email also naturally surfaces the APA and Cyber Exposure Score value props as a downstream benefit, making it a good pre-QBR or mid-cycle touch."
     }
   ]
 }
