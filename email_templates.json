@@ -391,6 +391,23 @@
         "Attack Surface"
       ],
       "notes": "Use for any Tenable One customer who hasn't yet configured third-party connectors \u2014 which is the majority. Before sending, check what other security tools the customer is known to use (from Salesforce, past QBR notes, or a quick conversation) and personalise the bracketed tool name in the bullet points. The 'less than an hour' and 'no additional cost' lines are high-conversion \u2014 they remove the two most common objections before the customer raises them. This email also naturally surfaces the APA and Cyber Exposure Score value props as a downstream benefit, making it a good pre-QBR or mid-cycle touch."
+    },
+    {
+      "id": "em-023",
+      "category": "expansion",
+      "persona": "Security Manager / IT Director",
+      "product": "Patch Management",
+      "subject": "How long does it take your team to patch a critical vulnerability right now?",
+      "body": "Hi [First Name],\n\nThat's the question I ask most security teams when we start talking about patching \u2014 and the honest answer is usually somewhere between \"too long\" and \"we're not sure.\"\n\nThe patching process is one of the most friction-heavy workflows in security. You find a critical vulnerability, you know it needs to be fixed, and then the handoff to IT operations begins \u2014 tickets, scheduling, change windows, conflicting priorities, and then the question nobody loves: did the patch actually apply correctly?\n\nMost teams are patching reactively, using manual processes or basic tools that don't understand risk context. The result is that patches go out in the order they were submitted, not the order they matter.\n\nTenable Patch Management changes that in a few specific ways that I think are relevant for [Customer]:\n\n- **Risk-based prioritisation** \u2014 patches are ranked by VPR score, not just CVSS. Your team works the queue that actually reduces your exposure, not just the loudest tickets\n- **Autonomous patching** \u2014 you can set policies that automatically deploy patches to defined asset groups based on risk level, without manual intervention for every finding\n- **Patch Reliability Score** \u2014 an AI-powered score that predicts whether a patch is likely to cause issues in your environment, so your team can move fast on safe patches and slow down on risky ones\n- **Native to Tenable One** \u2014 patch data feeds directly into your Cyber Exposure Score and APA, so closing a finding in the patch tool is immediately reflected in your overall risk posture\n\nThe result most customers see is a significant reduction in mean time to remediation \u2014 not because the team works harder, but because the workflow removes the steps that were slowing them down.\n\nI'd like to show you a quick demo of how this would look against your current environment. Would [proposed date] work for 25 minutes?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "Patch Management",
+        "Expansion",
+        "MTTR",
+        "Automation",
+        "IT Director",
+        "Risk-Based"
+      ],
+      "notes": "Works best for Tenable VM or Tenable One customers who are handling patching through a separate tool or manual process. The opening question is intentional \u2014 most security managers either don't know their MTTR or know it's too high, and both answers create a conversation. Personalise the bullet points if you know specific details about their current patching process. The Patch Reliability Score angle is particularly effective with IT ops-focused contacts who are worried about patches breaking production systems \u2014 it reframes Tenable PM as a tool that makes patching safer, not just faster."
     }
   ]
 }
