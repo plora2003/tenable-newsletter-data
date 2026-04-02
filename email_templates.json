@@ -408,6 +408,24 @@
         "Risk-Based"
       ],
       "notes": "Works best for Tenable VM or Tenable One customers who are handling patching through a separate tool or manual process. The opening question is intentional \u2014 most security managers either don't know their MTTR or know it's too high, and both answers create a conversation. Personalise the bullet points if you know specific details about their current patching process. The Patch Reliability Score angle is particularly effective with IT ops-focused contacts who are worried about patches breaking production systems \u2014 it reframes Tenable PM as a tool that makes patching safer, not just faster."
+    },
+    {
+      "id": "em-024",
+      "category": "exec",
+      "persona": "CISO / Security Director",
+      "product": "Tenable One",
+      "subject": "Your team found the risk. What if Tenable could close it automatically?",
+      "body": "Hi [First Name],\n\nThere is a gap in almost every security program that rarely gets talked about directly: the distance between knowing what needs to be fixed and actually getting it fixed.\n\nYour team uses Tenable One to find exposures, prioritise them, and surface attack paths. That part works. The bottleneck is what happens next \u2014 the manual triage, the tickets, the coordination with IT ops, the change windows, the verification that the fix actually worked. That process runs at human speed. The attacks you are trying to prevent do not.\n\nTenable just announced Hexa AI at RSA Conference 2026 \u2014 and I wanted to make sure you heard about it directly from me before it comes up elsewhere.\n\nHexa AI is the agentic AI engine built into Tenable One. It takes the exposure intelligence your program already generates and orchestrates the response automatically \u2014 across IT, cloud, identity, OT, and AI environments simultaneously. It does not replace your team's judgment. It executes the repeatable steps so your team can focus on the decisions that actually require human expertise.\n\nA few things that stood out to me as relevant for [Customer]:\n\n- Out-of-the-box agents handle repetitive workflows immediately \u2014 one early access customer reclaimed two full days per month just on asset tagging\n- Custom agents let you build workflows specific to your environment, with human approval gates at whatever points you decide\n- Because Hexa AI runs on the Tenable Exposure Data Fabric, it has context that a standalone AI tool never could \u2014 it understands how your vulnerabilities, identities, assets, and attack paths relate to each other before it takes any action\n- The level of automation is entirely in your control \u2014 from supervised execution where a human approves every action, to fully autonomous for defined low-risk workflows\n\nHexa AI is currently in private preview for select Tenable One customers. I would like to discuss whether [Customer] would be a good fit for the program \u2014 and what it would look like to get your team early access before general availability later this year.\n\nWould you have 20 minutes in the next week or two?\n\nBest,\n[CSM Name]\n[Title] | Tenable",
+      "tags": [
+        "Hexa AI",
+        "Tenable One",
+        "Agentic AI",
+        "CISO",
+        "Executive",
+        "Private Preview",
+        "Expansion"
+      ],
+      "notes": "Use for Tenable One customers who are active and getting value from the platform \u2014 this is an expansion and deepening conversation, not an activation one. The framing around 'human speed vs machine speed' resonates strongly with CISOs who are already aware of the attacker velocity problem. The private preview angle creates urgency without pressure \u2014 positioning early access as an opportunity rather than a product pitch. Always mention the private preview status honestly and offer to connect them with the account team to apply. Works especially well as a follow-up to a QBR where the customer expressed frustration with the gap between finding and fixing vulnerabilities."
     }
   ]
 }
