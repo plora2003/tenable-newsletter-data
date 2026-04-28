@@ -1,6 +1,85 @@
 {
-  "lastUpdated": "2026-03-19",
+  "lastUpdated": "2026-04-28",
   "editions": [
+    {
+      "edition": "April 2026",
+      "month": "2026-04",
+      "sourceUrl": "https://info.tenable.com/index.php/email/emailWebview?email=OTM0LVhRQi01NjgAAAGhcYQSQoukwZBY-eIIHmyxYUjeIYO1SzSzv5sDt_nLdasooySjEJqD5bEVHowOtqwPcvn7Isu0B8pTaAjAIyHPgb1lv079EQCvShQ",
+      "entries": [
+        {
+          "product": "Tenable Platform",
+          "tag": "Coming Soon",
+          "title": "VPR (Beta) promoted to primary VPR on July 1, 2026",
+          "description": "The enhanced VPR model, available as VPR (Beta) for the past several months, will become the primary Vulnerability Priority Rating across the entire Tenable platform on July 1. Legacy VPR scoring will be retired. Asset Criticality Ratings (ACR) will also be updated to more accurately reflect real-world business risk as part of an enhanced asset classification engine update."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "Network Scanner results feed into core risk engine with reachability validation",
+          "description": "Network Scanner results now feed directly into the core risk engine, dynamically confirming what is actually reachable across AWS, GCP, Azure, and OCI. Instead of flagging every internet-facing asset, the platform surfaces only toxic combinations on truly exposed assets \u2014 reducing noise from assets behind a WAF or other controls."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "New Feature",
+          "title": "Unified accounts page for all cloud and identity accounts",
+          "description": "A single unified view now consolidates every cloud and identity account across all providers, eliminating provider-specific silos and giving security teams one place to review account status and risk."
+        },
+        {
+          "product": "Tenable Cloud Security",
+          "tag": "Enhancement",
+          "title": "Container scan noise reduction, Explorer automation rules, and Entra ID / GCP least privilege",
+          "description": "Three workflow improvements: unresolvable CVEs can now be excluded from container scans to protect dev velocity; any Explorer investigation can be converted into a permanent automation rule for ongoing triage at scale; custom roles for over-privileged Entra ID and GCP groups are now auto-generated based on real usage patterns to enforce least privilege without manual analysis. Updated engine also surfaces vulnerabilities buried in nested JAR files."
+        },
+        {
+          "product": "Tenable Vulnerability Management",
+          "tag": "New Feature",
+          "title": "VM-Native OT Discovery \u2014 identify PLCs, HMIs, and IoT devices using existing VM tooling",
+          "description": "Tenable VM now supports native OT discovery, safely identifying and profiling connected PLCs, HMIs, and IoT devices without specialised hardware or complex deployments. Security teams can turn their existing IT vulnerability management tools into a safe OT discovery engine and gain visibility into the IT/OT security gap using scan templates and discovery settings they already own."
+        },
+        {
+          "product": "Tenable Vulnerability Management",
+          "tag": "New Feature",
+          "title": "New dashboards and reports for Java, database, and OS layer visibility",
+          "description": "Six new reports and dashboards targeting previously hidden infrastructure risk: Java Visibility and Exposures Dashboard and Report (identifies legacy flaws, library exploits, and unmanaged Java applications); Database Application Visibility and Exposures Dashboard and Report (highlights critical database gaps, unsupported versions, and exploitable assets for compliance and audit); OS and Application Inventory with Data Troubleshooting Report (high-level OS/application inventory with queries to identify and fix scan fidelity issues)."
+        },
+        {
+          "product": "Tenable Nessus",
+          "tag": "Generally Available",
+          "title": "Nessus v10.12 \u2014 drag-and-drop organisation, OpenSSL 3.5, and FIPS 140-3 support",
+          "description": "Nessus v10.12 is available for early access with GA expected later this month. New capabilities include drag-and-drop scan organisation into folders from list view, instant .nessus file import by dragging from desktop, full OpenSSL 3.5 support for latest cryptographic standards, and FIPS 140-3 compliance support."
+        },
+        {
+          "product": "Tenable Security Center",
+          "tag": "Generally Available",
+          "title": "Security Center 6.8 \u2014 AI-powered VPR insights, unified asset repositories, and VM-native OT Discovery",
+          "description": "SC 6.8 delivers AI-powered VPR insights with clear mitigation guidance, unified asset repositories for IPv4, IPv6, and Agents in a single view, new background query processing for operational efficiency, and scan optimisation tools. Also includes VM-native OT Discovery, allowing rapid mapping of unknown cyber-physical systems (PLCs, IoT devices) using existing SC tools without additional agents or add-on purchases."
+        },
+        {
+          "product": "Tenable OT Security",
+          "tag": "Generally Available",
+          "title": "OT Security 4.6 \u2014 5,000-subnet scaling, centralized network management, and remote agent updates",
+          "description": "OT Security 4.6 introduces massive enterprise scaling (up to 5,000 subnets per ICP), a new Monitored Networks page with bulk-add and inactive network staging, per-scan credential customisation for sensitive asset discovery, single-click pivot back to Tenable One for SSO/SAML users, remote OT agent updates from the ICP eliminating manual site visits, and enhanced asset log export metadata for faster diagnostics. IoT connector stability improvements for Milestone, AvigilonES, and Exacq Edge. Note: customers on 4.5 should apply the 4.5.61 service pack immediately."
+        },
+        {
+          "product": "Tenable Identity Exposure",
+          "tag": "Enhancement",
+          "title": "Golden Ticket IoA now directory-aware; richer PetitPotam context; self-healing platform connections",
+          "description": "Detection improvements: Golden Ticket IoA updated with directory-aware logic to reduce false positives and missed hits in multi-domain environments; PetitPotam detections now surface hostnames and source IPs for faster triage. Platform stability improvements: accurate API pagination for cleaner result set iteration, and self-healing RabbitMQ and Sysvol connections that auto-recover after restarts or network interruptions."
+        },
+        {
+          "product": "Tenable PCI ASV",
+          "tag": "Enhancement",
+          "title": "PCI ASV interface update \u2014 simplified compliance workflow launching May 8, 2026",
+          "description": "The PCI ASV interface will update on or around May 8, 2026. Changes include renamed actions (Submit PCI \u2192 Import to ASV Workbench), a new Accept button and compliance dialog for fewer clicks, a real-time progress indicator, a unified Vulnerability Review & Disputes tab combining Failures and Disputes, and repositioned navigation. No impact to data, scan history, attestation records, or scan configurations \u2014 update is automatic."
+        },
+        {
+          "product": "Tenable Research",
+          "tag": "New Feature",
+          "title": "Potential Vulnerabilities introduced \u2014 new finding type with lower certainty classification",
+          "description": "Tenable Research is officially introducing Potential Vulnerabilities as a new finding type: a finding with a lower degree of certainty as to whether the assessed application is or is not vulnerable. Also released this month: improved printer OS fingerprinting (OS artifacts now surface in scan host metadata for identified printers even when Scan Network Printers is disabled), 4,500+ new published vulnerability plugins, and 130+ new compliance audits."
+        }
+      ]
+    },
     {
       "edition": "March 2026",
       "month": "2026-03",
@@ -95,7 +174,8 @@
           "title": "Patch Management v10.0.971.26 \u2014 Strategy & Compliance Fixes",
           "description": "Critical update addressing strategy corruption bugs and inaccurate compliance reporting. Includes modernized performance improvements and security updates via Java 25. Ensures patch workflows remain intact and compliance data stays accurate for reporting and audit purposes."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/discussions/product-announcements/march-2026-tenable-product-newsletter/111616"
     },
     {
       "edition": "February 2026",
@@ -221,7 +301,8 @@
           "title": "Tenable Add-on for Splunk v8.0.2",
           "description": "Quality update resolving a specific index_time race condition that was affecting data reliability for Tenable Security Center integrations. Improves data consistency for teams using Splunk as their SIEM alongside Tenable SC."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/discussions/product-announcements/february-2026-tenable-product-newsletter/111522"
     },
     {
       "edition": "December 2025",
@@ -239,7 +320,8 @@
           "title": "Granular RBAC \u2014 Read-Only & Custom Exposure Roles",
           "description": "New read-only role and a fully customizable Exposure Management role with tag enforcement. Admins can now control exactly who can view, act on, and export data across Tenable One modules \u2014 enabling broader stakeholder access without risking data integrity."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "November 2025",
@@ -257,7 +339,8 @@
           "title": "IT/OT Unified View Widget",
           "description": "New dashboard widget allowing security teams to view IT and OT environments as a single connected surface. Designed to protect uptime and safety by giving IT and OT teams shared visibility from one dashboard."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "October 2025",
@@ -281,7 +364,8 @@
           "title": "Bright DAST Connector",
           "description": "New third-party connector for Bright, a DAST tool that pulls asset and findings data from web applications. Configurable directly within the Integrations section of Tenable Exposure Management."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "September 2025",
@@ -311,7 +395,8 @@
           "title": "7 New Built-In Dashboard Widgets",
           "description": "Seven additional built-in widgets added to the dashboard widget library, giving teams more ways to visualize and analyze exposure data without building custom widgets from scratch."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "August 2025",
@@ -341,7 +426,8 @@
           "title": "4 New Chart Types & Analytics Enhancements",
           "description": "Four new chart types available when creating custom widgets, along with new CISA KEV and end-of-life widget properties. Dashboard data updates now triggered at 3AM per container region timezone."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "July 2025",
@@ -359,7 +445,8 @@
           "title": "Claroty xDome OT Connector",
           "description": "New connector for Claroty xDome, pulling OT/ICS asset and findings data from industrial environments directly into Tenable Exposure Management."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "June 2025",
@@ -383,7 +470,8 @@
           "title": "Cloud Labels as External Tags",
           "description": "Cloud labels can now be used to filter, search, and create tags using the new External Tags property. Improves asset context and enables creation of custom exposure cards using cloud labels."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "May 2025",
@@ -407,7 +495,8 @@
           "title": "Exposure Response \u2014 Initiatives",
           "description": "New Exposure Response section in Tenable VM. Enables creation of initiatives to track identification of critical exposures and team response, with SLA assignment and vulnerability targeting."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "March 2025",
@@ -431,7 +520,8 @@
           "title": "Vulnerability Intelligence Section",
           "description": "New Vulnerability Intelligence main section added to Tenable VM, providing enriched context on CVEs including threat intelligence, exploit availability, and real-world exploitation evidence."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     },
     {
       "edition": "January 2025",
@@ -455,7 +545,8 @@
           "title": "Redesigned License Information Page",
           "description": "Redesigned License Information page providing visual overviews by product and time period, license usage snapshots, resource counts for all cloud products, and account information including Customer ID."
         }
-      ]
+      ],
+      "sourceUrl": "https://connect.tenable.com/category/news-you-need/discussions/product-announcements"
     }
   ]
 }
