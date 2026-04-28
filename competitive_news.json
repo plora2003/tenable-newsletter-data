@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-04-28",
   "competitors": [
     {
       "id": "wiz",
@@ -38,6 +38,86 @@
     }
   ],
   "news": [
+    {
+      "id": "cn-011",
+      "competitor": "wiz",
+      "date": "2026-03-11",
+      "headline": "Google completes $32B acquisition of Wiz",
+      "summary": "Google officially completed its acquisition of Wiz for $32 billion in cash \u2014 the largest acquisition in Google's history. Wiz joins Google Cloud but retains its brand and its commitment to supporting all major cloud environments including AWS and Azure.",
+      "impactLevel": "high",
+      "tenableImpact": "Wiz is now a Google product. For customers who run multi-cloud or are not Google-first, this creates a legitimate concern about long-term vendor neutrality. Wiz has publicly committed to supporting all clouds, but that message will need repeating. The acquisition also deepens Wiz's financial resources and engineering capacity significantly.",
+      "responseGuidance": "Acknowledge the acquisition as a major development. Then reframe: Tenable is the only independent exposure management platform \u2014 not owned by a cloud provider with a vested interest in that cloud's adoption. For AWS- or Azure-heavy customers, this is a real differentiator. Ask: 'Now that Wiz is a Google product, how does your leadership feel about a Google-owned tool having visibility into your AWS and Azure environments?'"
+    },
+    {
+      "id": "cn-012",
+      "competitor": "wiz",
+      "date": "2026-03-24",
+      "headline": "Wiz launches AI-Application Protection Platform (AI-APP) and Security Agents at RSA 2026",
+      "summary": "At RSA 2026, Wiz announced its AI-APP platform providing end-to-end security for AI applications, plus three agentic security agents: Red Agent (offensive/attack simulation), Blue Agent (investigation, now GA), and Green Agent (remediation). Also launched Wiz Workflows for security process automation.",
+      "impactLevel": "high",
+      "tenableImpact": "Wiz is directly entering the agentic AI security space \u2014 their clearest move yet to compete with Hexa AI. Blue Agent became GA on March 30. However, Wiz's agents operate within the Wiz Security Graph, covering cloud-native environments. They have no equivalent cross-surface capability across OT, identity, and AI simultaneously.",
+      "responseGuidance": "Acknowledge Blue Agent is a genuine product \u2014 don't dismiss it. Then pivot: 'Wiz's agents are impressive within their cloud context. Hexa AI orchestrates across IT, cloud, OT, identity, and AI in a single workflow \u2014 and it runs on the Exposure Data Fabric, not just cloud telemetry. That broader context is the difference between a cloud remediation tool and a programme-wide automation engine.'"
+    },
+    {
+      "id": "cn-013",
+      "competitor": "wiz",
+      "date": "2026-04-22",
+      "headline": "Wiz expands Security Graph to Databricks, AWS AgentCore, Azure Copilot Studio, Salesforce Agentforce at Google Cloud Next",
+      "summary": "At Google Cloud Next '26, Wiz announced expansion of its Security Graph to cover Databricks and major AI agent-building platforms (AWS AgentCore, Gemini Enterprise, Azure Copilot Studio, Salesforce Agentforce). Also announced Wiz Defend integration with Google SecOps and Mandiant, plus new AI-native development lifecycle security features including inline AI code scanning and agent-based remediation.",
+      "impactLevel": "medium",
+      "tenableImpact": "Wiz is rapidly expanding its AI coverage footprint. The Databricks integration and AI agent studio coverage are competitive with Tenable AI Exposure's direction. However, all of these integrations feed into the Wiz Security Graph \u2014 which is still Google-cloud-centric at its core. The Google SecOps integration reinforces the Google ecosystem lock-in concern.",
+      "responseGuidance": "Use the Google ecosystem angle: Wiz is deepening its integration with Google's stack at every turn. For customers not going all-in on Google Cloud, that creates dependency risk. Tenable integrates with all clouds and all SIEMs without a stake in which cloud wins."
+    },
+    {
+      "id": "cn-014",
+      "competitor": "qualys",
+      "date": "2026-03-24",
+      "headline": "Qualys launches Agent Val \u2014 agentic AI for exploit validation inside ETM",
+      "summary": "Qualys introduced Agent Val into its Enterprise TruRisk Management platform at RSA 2026. The new agentic AI layer uses TruConfirm to safely validate exploitability of high-risk exposures directly in production environments, incorporating business context and asset criticality. Part of Qualys's broader push toward an agentic AI-native Risk Operations Center (ROC).",
+      "impactLevel": "high",
+      "tenableImpact": "Agent Val is Qualys's direct answer to Hexa AI, announced the same week at RSA. It automates one specific workflow \u2014 exploit validation \u2014 within the ETM platform. Tenable Hexa AI orchestrates across all five surfaces and multiple workflow types simultaneously. Agent Val is narrower but concrete and GA.",
+      "responseGuidance": "Acknowledge Agent Val is a genuine product capability and a real step forward for Qualys. Then differentiate on scope: 'Agent Val validates exploitability within Qualys ETM. Hexa AI orchestrates remediation across IT, cloud, OT, identity, and AI \u2014 it's not one workflow in one product, it's programme-wide automation. Also worth noting: Hexa AI lets you configure human-in-the-loop approval at every stage. Ask how much control your team needs before an agent takes autonomous action.'"
+    },
+    {
+      "id": "cn-015",
+      "competitor": "qualys",
+      "date": "2026-02-17",
+      "headline": "Qualys building agentic AI-native Risk Operations Center (ROC) with ISPM and AI marketplace",
+      "summary": "Qualys is positioning its ETM platform toward an agentic AI-native Risk Operations Center model \u2014 not just detecting vulnerabilities but autonomously remediating them. Added Identity Security Posture Management (ISPM) to the ETM platform and launched an AI marketplace for deploying specialised autonomous agents for patch management and exploit validation.",
+      "impactLevel": "medium",
+      "tenableImpact": "Qualys is directionally moving toward Tenable One's positioning \u2014 unified risk management with autonomous remediation. The ISPM addition is notable because identity was previously a clear Tenable advantage. Their AI marketplace approach is modular rather than platform-native, which creates integration complexity.",
+      "responseGuidance": "The ISPM addition warrants attention for customers where Identity Exposure is part of the value story. Tenable Identity Exposure is purpose-built with deep AD expertise and 20+ years of identity security research behind it \u2014 ISPM is a new addition to Qualys ETM, not a core capability. On the ROC/agentic direction: Qualys is building towards what Tenable One already is today."
+    },
+    {
+      "id": "cn-016",
+      "competitor": "crowdstrike",
+      "date": "2026-03-23",
+      "headline": "CrowdStrike positions Falcon endpoint as the AI security epicenter at RSA 2026",
+      "summary": "At RSA 2026, CrowdStrike announced new Falcon platform capabilities extending AI agent discovery, shadow AI governance, and runtime protection from the endpoint across SaaS, browser, and cloud environments. Core message: the endpoint is the point of AI execution, and therefore the enforcement point for AI security.",
+      "impactLevel": "medium",
+      "tenableImpact": "CrowdStrike's 'endpoint as epicenter' framing is clever but reveals its limitation \u2014 it's still endpoint-anchored. AI agents executing on unmanaged cloud infrastructure, OT devices, or identity systems without an endpoint agent are outside Falcon's view. Tenable covers all five surfaces including those where no Falcon agent is deployed.",
+      "responseGuidance": "Validate the endpoint insight: 'CrowdStrike is right that AI agents execute on endpoints. But they also execute on cloud functions, identity systems, and OT infrastructure without an endpoint agent. Ask your customer: of all the places AI is running in your environment, what percentage have a Falcon sensor? Tenable covers the rest.'"
+    },
+    {
+      "id": "cn-017",
+      "competitor": "crowdstrike",
+      "date": "2026-03-24",
+      "headline": "CrowdStrike launches Falcon Data Security and Agentic MDR at RSA 2026",
+      "summary": "CrowdStrike launched Falcon Data Security \u2014 covering data theft prevention across endpoints, SaaS, cloud, browsers, and AI workflows using adversary intelligence. Also unveiled Agentic MDR (Managed Detection and Response), using AI agents to automate investigation and response workflows within Falcon Complete. Cited 89% YoY increase in AI-enabled adversary operations and 29-minute average eCrime breakout time.",
+      "impactLevel": "medium",
+      "tenableImpact": "Falcon Data Security extends CrowdStrike further into DSPM territory and is a more credible data security play than before. Agentic MDR is their answer to the automated SOC trend. Neither directly competes with Tenable's exposure management positioning \u2014 these are detection and response capabilities, not proactive exposure reduction.",
+      "responseGuidance": "Falcon Data Security and Agentic MDR are detection and response products. Tenable is proactive exposure management \u2014 finding and closing the paths before attackers use them. These can coexist: 'Tenable tells you where you're exposed. CrowdStrike tells you when you've been hit. Both matter, but if you only have budget for one investment, the question is whether you want to stop breaches before they start or respond to them faster.'"
+    },
+    {
+      "id": "cn-018",
+      "competitor": "paloalto",
+      "date": "2026-03-24",
+      "headline": "Palo Alto Networks announces Prisma AIRS 3.0 and agentic AI security at RSA 2026",
+      "summary": "Palo Alto introduced Prisma AIRS 3.0 \u2014 a platform to secure the full agentic AI lifecycle \u2014 along with Prisma Browser for Business and Next-Generation Trust Security for post-quantum readiness. Continued push toward AI security posture management across agent deployment pipelines.",
+      "impactLevel": "low",
+      "tenableImpact": "Prisma AIRS competes with Tenable AI Exposure on the AI security posture management front. Palo Alto's approach is Prisma-platform-centric \u2014 it has deep cloud integration but limited coverage of on-premises, OT, or identity environments. The post-quantum readiness angle is forward-looking but not yet a mainstream customer concern.",
+      "responseGuidance": "For customers evaluating Prisma AIRS vs Tenable AI Exposure: Tenable's AI Aware capability detects AI software and CVEs on any asset \u2014 not just cloud workloads. AI Exposure covers governance and shadow AI regardless of where it's running. Palo Alto's coverage starts at the cloud boundary."
+    },
     {
       "id": "qualys-004",
       "competitor": "qualys",
