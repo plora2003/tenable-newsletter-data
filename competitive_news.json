@@ -35,9 +35,56 @@
       "color": "#38bdf8",
       "tagline": "Prisma Cloud / Cortex Xpanse",
       "watchFor": "CNAPP consolidation, ASM + VM bundling, platform pricing pressure"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "color": "#e879f9",
+      "tagline": "Claude AI \u2014 Cybersecurity & Agentic AI",
+      "watchFor": "Claude Code Security, Project Glasswing / Claude Mythos, Accenture Cyber.AI partnership, and any enterprise security tooling built on Claude models"
     }
   ],
   "news": [
+    {
+      "id": "anthropic-001",
+      "competitor": "anthropic",
+      "date": "2026-02-20",
+      "title": "Anthropic launches Claude Code Security \u2014 AI-powered codebase vulnerability scanning",
+      "summary": "Anthropic launched Claude Code Security in limited research preview for Enterprise and Team customers. It scans codebases for security vulnerabilities and suggests targeted patches for human review. Unlike rule-based SAST tools, it reasons about code the way a security researcher would \u2014 understanding component interactions, tracing data flows, and catching context-dependent vulnerabilities. Findings go through a multi-stage verification process with severity ratings and human-in-the-loop approval before any fix is applied.",
+      "impact": "Medium",
+      "tenableImpact": "Claude Code Security is an AppSec and DevSecOps tool \u2014 it competes with SAST vendors like Semgrep and Checkmarx more directly than with Tenable. It does not address infrastructure vulnerability management, cloud misconfiguration, identity exposure, OT security, or attack path analysis. However, it is worth monitoring as it represents AI entering the vulnerability discovery space with credible autonomous capability.",
+      "howToRespond": "If a customer brings up Claude Code Security: acknowledge it as impressive for application code scanning. Then clarify the scope difference: 'Claude Code Security scans your codebase for coding vulnerabilities. Tenable scans your entire deployed environment \u2014 endpoints, cloud infrastructure, identity systems, OT assets, web applications, and APIs \u2014 for vulnerabilities that exist in running systems right now. They are solving different problems.' The two can coexist, and framing them as complementary rather than competing often lands better."
+    },
+    {
+      "id": "anthropic-002",
+      "competitor": "anthropic",
+      "date": "2026-04-07",
+      "title": "Anthropic announces Claude Mythos Preview and Project Glasswing \u2014 AI that autonomously finds and exploits zero-day vulnerabilities",
+      "summary": "Anthropic announced Claude Mythos Preview \u2014 an AI model it describes as too dangerous for public release because of its unprecedented cybersecurity capabilities. Mythos can autonomously discover and exploit zero-day vulnerabilities across major operating systems, web browsers, and critical infrastructure with no human involvement. It identified thousands of previously unknown critical vulnerabilities across every major OS and browser. Project Glasswing is the controlled enterprise programme giving select organisations (Amazon, Apple, JP Morgan, Goldman Sachs, Palo Alto Networks, Microsoft, Google) early access to use Mythos defensively to patch vulnerabilities before broader release.",
+      "impact": "High",
+      "tenableImpact": "Mythos is the most significant AI cybersecurity announcement in years and has broad industry implications. It is not a direct Tenable competitor \u2014 it does not provide exposure scoring, asset inventory, attack path mapping, or compliance reporting. It is an autonomous vulnerability research and exploitation tool. However, it signals that AI-powered vulnerability discovery is arriving at a speed and scale that will change every organisation's risk posture, which strengthens the case for a platform like Tenable One to manage the resulting exposure.",
+      "howToRespond": "Use Mythos as a proof point for urgency: 'Anthropic just demonstrated that AI can autonomously find and exploit zero-day vulnerabilities across every major OS and browser with no human involvement. The window from vulnerability discovery to exploitation is already collapsing \u2014 Mythos makes it shorter still. This is exactly why having Tenable One as your programme-wide exposure management platform matters: not just to find vulnerabilities, but to prioritise and close the ones that matter before an attacker \u2014 or an AI model like Mythos \u2014 reaches them first.'"
+    },
+    {
+      "id": "anthropic-003",
+      "competitor": "anthropic",
+      "date": "2026-03-25",
+      "title": "Accenture launches Cyber.AI powered by Claude at RSA 2026 \u2014 agentic SOC automation for enterprise",
+      "summary": "Accenture launched Cyber.AI at RSA 2026, placing Claude at its core as a reasoning engine paired with Accenture's library of proprietary security agents. The platform automates security operations from vulnerability scanning through incident response. Early results from Accenture's own deployment: scan turnaround reduced from 3-5 days to under one hour, security testing coverage expanded from 10% to over 80%. Includes Agent Shield for governing AI agents within enterprise risk tolerance policies.",
+      "impact": "Medium",
+      "tenableImpact": "Cyber.AI is a managed security services platform \u2014 it relies on Claude as its AI reasoning layer but is delivered by Accenture's 30,000+ cybersecurity professionals. It is not a self-service product. It competes more directly with MSSP and MDR providers than with Tenable. However, customers evaluating whether to expand their Tenable deployment vs. engage a managed service should be aware of this offering.",
+      "howToRespond": "Cyber.AI is compelling for organisations that want to outsource security operations to a managed service. Tenable One is a platform that empowers your own security team with the data, scoring, and automation to run the programme themselves. The question to ask: 'Does your organisation want to own your security programme and have full visibility, or outsource it and trust a service provider with access to your environment?' For CISOs who want control and visibility, Tenable One is the answer."
+    },
+    {
+      "id": "anthropic-004",
+      "competitor": "anthropic",
+      "date": "2026-04-21",
+      "title": "Unauthorised group reportedly gains access to Mythos Preview through third-party vendor \u2014 Anthropic investigating",
+      "summary": "Bloomberg reported that a private online forum gained access to Claude Mythos Preview through a third-party vendor environment on the day of the public announcement, exploiting shared API keys from authorised contractors. Anthropic confirmed it is investigating but said there is no evidence of impact to core systems. The US Treasury Secretary convened a meeting with major bank CEOs to discuss Mythos risks. Goldman Sachs, Citigroup, Bank of America, and Morgan Stanley are among Project Glasswing participants.",
+      "impact": "Medium",
+      "tenableImpact": "The Mythos access incident highlights that even Anthropic's own controls around an AI model described as too dangerous to release were insufficient to prevent unauthorised access on day one. This is relevant context when customers ask about AI security tooling: the supply chain and access control risks of advanced AI tools are real and not yet solved. It also gives credibility to concerns about offensive AI capabilities getting into the wrong hands.",
+      "howToRespond": "Use carefully and only if a customer raises Mythos or the incident directly. The response is not to attack Anthropic but to reinforce the broader point: 'This incident shows that even the most safety-conscious AI companies face real challenges controlling access to powerful AI capabilities. It reinforces why proactive exposure management \u2014 knowing exactly what is vulnerable across your environment before an AI-assisted attacker finds it \u2014 is more important than ever. Tenable One is how you stay ahead of that curve.'"
+    },
     {
       "id": "cn-011",
       "competitor": "wiz",
